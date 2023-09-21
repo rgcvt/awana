@@ -149,7 +149,7 @@ export const roleByTitle = (title) => {
 
 export const dates = [
 	{
-		date: '2023-09-23',
+		date: '2023-09-22',
 		schedule: [
 			{
 				time: '5:15 pm',
