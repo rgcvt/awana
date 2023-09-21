@@ -6,8 +6,7 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "npm run data:families && vite build",
-		"preview": "vite preview",
-		"data:families": "node ./data/families.mjs"
+		"preview": "vite preview"
 	},
 	"dependencies": {
 		"vue": "latest",
