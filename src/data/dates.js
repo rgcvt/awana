@@ -89,7 +89,7 @@ const roles = [
 		title: 'Team Helper',
 		responsibilities: [
 			"Keep the kids in order. We will start each game with your team lined up tallest->shortest. As players finish their round, help them find their way to the back of the line so that it's clear who has played, and who is up next.",
-			'Reinforce the rules. Watch your kids as they play the game. If they break the rules, help them understand the rule and how to follow it next time.',
+			'Reinforce the rules. Watch your kids as they play the game. If they break a rule in the game, help them understand the rule and how to follow it next time.',
 		],
 	},
 	{
