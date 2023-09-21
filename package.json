@@ -1,0 +1,24 @@
+{
+	"name": "awana-vue",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "npm run data:families && vite build",
+		"preview": "vite preview",
+		"data:families": "node ./data/families.mjs"
+	},
+	"dependencies": {
+		"vue": "latest",
+		"vue-router": "latest"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "latest",
+		"baselayer.css": "latest",
+		"dotenv": "^16.1.4",
+		"sass": "latest",
+		"vite": "latest",
+		"vite-plugin-pwa": "^0.16.4"
+	}
+}
