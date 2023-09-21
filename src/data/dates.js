@@ -360,7 +360,7 @@ export const dates = [
 							},
 							{
 								name: 'Brad Parker',
-								role: 'Team Captain',
+								role: 'Team Helper',
 							},
 							{
 								name: 'Colin Vandorn',
@@ -372,7 +372,7 @@ export const dates = [
 							},
 							{
 								name: 'Sonia Williamson',
-								role: 'Team Helper',
+								role: 'Team Captain',
 							},
 						],
 					},
