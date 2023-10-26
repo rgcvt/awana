@@ -1401,7 +1401,7 @@ export const dates = [
 		],
 	},
 	{
-		date: '2023-10-26',
+		date: '2023-10-27',
 		schedule: [
 			{
 				time: '5:15 pm',
