@@ -462,7 +462,7 @@ export default {
 					title: 'T&T Small Groups',
 					location: 'Worship Center + Foundations Room',
 					inCharge: ['Keith McClymonds, Niki McClymonds'],
-					notes: `<a href="https://s3.amazonaws.com/churchplantmedia-cms/z2_3938_redeeming_grace_church_georgia_vt_1679686462/awana_tt_dog_1-5_1-6.pdf">Discussion Guide</a>`,
+					notes: `<a href="https://s3.amazonaws.com/churchplantmedia-cms/z2_3938_redeeming_grace_church_georgia_vt_1679686462/awana_tt_dog_2-1_2-2.pdf">Discussion Guide</a>`,
 					staff: [
 						{
 							name: 'Kenny Grey',
