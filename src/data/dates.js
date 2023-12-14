@@ -67,6 +67,16 @@ const roles = [
 		],
 	},
 	{
+		title: 'Check-In (Store Night)',
+		responsibilities: [
+			'Mark attendance when a child arrives.',
+			'Prepare 1 paper bag for each child.  Place the bags in 2 stacks: one stack for Sparks, one for T&T.  Details below.',
+			'T&T Kids with verses to recite: Direct them to Fast Track. When they return, put their name on a bag, put their $ in the bag, sign any unsigned $10 notes.',
+			'Everyone else: put their name on a bag, put their $ in the bag, sign any unsigned $10 notes.',
+			'Record progress when a child completes Fast Track.',
+		],
+	},
+	{
 		title: 'Fast Track',
 		responsibilities: [
 			"Listen to Verses: Kids will recite verses they have memorized. They get up to 2 helps per section (there may be more than one verse per section, a section is noted by the space for a leader's signature)",
@@ -149,6 +159,39 @@ const roles = [
 	{
 		title: 'Teacher',
 		responsibilities: ['Prepare and deliver lessons for T&T, and Sparks'],
+	},
+	{
+		title: 'Store Facilitator',
+		responsibilities: [
+			'Retrieve the paper bags for your club from the check-in table.  There will be a bag for each kid with their name on the outside and their Awana bucks inside.',
+			'Line kids up in the hall, distrubute the bags, and send in as many kids as is wise to the store.',
+			'Once each kid has finished purchasing, staple their bag shut, help them place their bag up adainst the hallway wall, and direct them to the Worship Center for games.',
+			'Kids must wait until they get home to play with their purchases.  They may not open that bag at church.',
+		],
+	},
+	{
+		title: 'Store Clerk',
+		responsibilities: [
+			'Sell toys from the store in exchange for Awana bucks.',
+			'Help younger kids calculate if they have enough bucks for a given item.',
+			'Help indecisive kids make up their mind to either buy or save.',
+		],
+	},
+	{
+		title: 'Store Helper',
+		responsibilities: [
+			'Assist the Store Facilitators and Store Clerks as needed.',
+		],
+	},
+	{
+		title: 'Filler Games Leader',
+		responsibilities: [
+			'Lead loosely-organized games that are easy to add people to mid-game.',
+		],
+	},
+	{
+		title: 'Filler Games Helper',
+		responsibilities: ['Help the Filler Games Leader'],
 	},
 ];
 
