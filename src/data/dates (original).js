@@ -194,7 +194,7 @@ const roles = [
 		responsibilities: ['Help the Filler Games Leader'],
 	},
 	{
-		title: 'Cubbies Setup - Before Club',
+		role: 'Cubbies Setup - Before Club',
 		responsibilities: [
 			"In the Tots room we turn the wire rack around so it's not accessible",
 			'Move all the large & loose toys (kitchen, train set, anything on top of the wire rack) out of that room and into the Kids room along the window wall',
@@ -204,26 +204,26 @@ const roles = [
 		],
 	},
 	{
-		title: 'Cubbies Check-in',
+		role: 'Cubbies Check-in',
 		responsibilities: [
 			"In the Cubbies leader book there is a sign in sheet that can be used to check off who's here and keep track of when they're picked up later.",
 		],
 	},
 	{
-		title: 'Cubbies Verses',
+		role: 'Cubbies Verses',
 		responsibilities: [
 			'Listen to cubbies say their verses.',
 			'They get a green apple sticker to put in their book for each verse they say. Those are inside the leader book.',
 		],
 	},
 	{
-		title: 'Cubbies Game Leader',
+		role: 'Cubbies Game Leader',
 		responsibilities: [
 			'lead some loosely-organized games to keep the kids attention during the first part of club',
 		],
 	},
 	{
-		title: 'Cubbies Snack Setup',
+		role: 'Cubbies Snack Setup',
 		responsibilities: [
 			'While games are going on, set out snacks.',
 			'Fill the water jug.',
@@ -232,28 +232,28 @@ const roles = [
 		],
 	},
 	{
-		title: 'Cubbies Music Helper',
+		role: 'Cubbies Music Helper',
 		responsibilities: ['Sing songs with the cubbies and the music leader.'],
 	},
 
 	{
-		title: 'Cubbies Puppeteer',
+		role: 'Cubbies Puppeteer',
 		responsibilities: ['Control the puppets for the puppet show.'],
 	},
 
 	{
-		title: 'Cubbies Teacher',
+		role: 'Cubbies Teacher',
 		responsibilities: [
 			"Teach two lessons back to back. It requires a little ad libbing to transition between them sometimes. It's best to read it through beforehand.",
 		],
 	},
 	{
-		title: 'Cubbies Lesson Helper',
+		role: 'Cubbies Lesson Helper',
 		responsibilities: ['Help the kids direct their attention to the teacher'],
 	},
 
 	{
-		title: 'Cubbies Snack and Craft Helper',
+		role: 'Cubbies Snack and Craft Helper',
 		responsibilities: [
 			'Each kid gets a small handful of animal crackers and a small cup of water. They can have more of each if they ask.',
 			'There are two coloring/activity sheets, crayons are in the room.',
@@ -261,7 +261,7 @@ const roles = [
 	},
 
 	{
-		title: 'Cubbies Setup - After Club',
+		role: 'Cubbies Setup - After Club',
 		responsibilities: [
 			'Everything gets put back in their respective places.',
 			'Sometimes vacuuming is needed.',

@@ -49,7 +49,6 @@ import { dates } from '@/data/dates.js';
 const route = useRoute();
 
 const date = dates.find((d) => d.date == route.params.date);
-console.log(date.schedule);
 </script>
 <style scoped lang="scss">
 h3 {
