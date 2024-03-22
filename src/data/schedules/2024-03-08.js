@@ -1,8 +1,8 @@
 export default {
-	date: '2023-09-22',
+	date: '2024-03-08',
 	schedule: [
 		{
-			time: '5:15 pm',
+			time: '5:00 pm',
 			events: [
 				{
 					title: 'Setup',
@@ -27,7 +27,7 @@ export default {
 			],
 		},
 		{
-			time: '5:45 pm',
+			time: '5:50 pm',
 			events: [
 				{
 					title: 'Check-In',
@@ -136,7 +136,7 @@ export default {
 					staff: [
 						{
 							name: 'Allie Fullerton',
-							role: 'Cubbies Director',
+							role: 'Cubbies Check-in',
 						},
 						{
 							name: 'Jared Fullerton',
@@ -144,18 +144,18 @@ export default {
 						},
 						{
 							name: 'CJ North',
-							role: 'Cubbies Helper',
+							role: 'Cubbies Game Leader',
 						},
 						{
 							name: 'Carol Parker',
-							role: 'Cubbies Helper',
+							role: 'Cubbies Snack Setup',
 						},
 					],
 				},
 			],
 		},
 		{
-			time: '6:05 pm',
+			time: '6:10 pm',
 			events: [
 				{
 					title: 'Game Time',
@@ -186,7 +186,7 @@ export default {
 						},
 						{
 							name: 'Julia Larson',
-							role: 'Score Keeper',
+							role: 'Team Helper',
 						},
 						{
 							name: 'Peter Larson',
@@ -250,20 +250,20 @@ export default {
 					inCharge: ['Jared Fullerton', 'Allie Fullerton'],
 					staff: [
 						{
-							name: 'Allie Fullerton',
-							role: 'Cubbies Director',
-						},
-						{
 							name: 'Jared Fullerton',
 							role: 'Cubbies Director',
 						},
 						{
+							name: 'Allie Fullerton',
+							role: 'Cubbies Music Helper',
+						},
+						{
 							name: 'CJ North',
-							role: 'Cubbies Helper',
+							role: 'Cubbies Music Helper',
 						},
 						{
 							name: 'Carol Parker',
-							role: 'Cubbies Helper',
+							role: 'Cubbies Music Helper',
 						},
 						{
 							name: 'Evelyn Larson',
@@ -345,10 +345,6 @@ export default {
 					inCharge: ['Chelsea Hale'],
 					staff: [
 						{
-							name: 'Andrew Hale',
-							role: 'Director',
-						},
-						{
 							name: 'Chelsea Hale',
 							role: 'Check-In',
 						},
@@ -359,50 +355,49 @@ export default {
 					],
 				},
 				{
-					title: 'Setup',
-					description: null,
-					location: 'Worship Center',
-					inCharge: ['Kenny Grey'],
-					staff: [
-						{
-							name: 'Kenny Grey',
-							role: 'Setup - During Club',
-						},
-						{
-							name: 'Chris Butler',
-							role: 'Setup - During Club',
-						},
-						{
-							name: 'Peter Larson',
-							role: 'Setup - During Club',
-						},
-						{
-							name: 'Colin Vandorn',
-							role: 'Setup - During Club',
-						},
-					],
-				},
-				{
 					title: 'Cubbies',
 					description: null,
 					location: 'Cubbie Land',
 					inCharge: ['Jared Fullerton', 'Allie Fullerton'],
 					staff: [
 						{
+							name: 'Jared Fullerton',
+							role: 'Cubbies Teacher',
+						},
+						{
 							name: 'Allie Fullerton',
 							role: 'Cubbies Director',
 						},
 						{
-							name: 'Jared Fullerton',
-							role: 'Cubbies Director',
+							name: 'Carol Parker',
+							role: 'Cubbies Lesson Helper',
 						},
 						{
 							name: 'CJ North',
-							role: 'Cubbies Helper',
+							role: 'Cubbies Puppeteer',
+						},
+					],
+				},
+				{
+					title: 'Setup - During Club',
+					location: 'Worship Center',
+					inCharge: ['Kenny Grey'],
+					staff: [
+						{
+							name: 'Andrew Hale',
+							role: 'Setup - During Club',
 						},
 						{
-							name: 'Carol Parker',
-							role: 'Cubbies Helper',
+							name: 'Kenny Grey',
+							role: 'Setup - During Club',
+						},
+						{
+							name: 'Colin Vandorn',
+							role: 'Setup - During Club',
+						},
+						{
+							name: 'Chris Butler',
+							role: 'Setup - During Club',
 						},
 					],
 				},
@@ -430,10 +425,6 @@ export default {
 							role: 'Lesson Helper',
 						},
 						{
-							name: 'Sonia Williamson',
-							role: 'Lesson Helper',
-						},
-						{
 							name: 'Amelia Munger',
 							role: 'Lesson Helper',
 						},
@@ -455,7 +446,7 @@ export default {
 					title: 'T&T Small Groups',
 					location: 'Worship Center + Foundations Room',
 					inCharge: ['Keith McClymonds, Niki McClymonds'],
-					notes: `<a href="https://s3.amazonaws.com/churchplantmedia-cms/z2_3938_redeeming_grace_church_georgia_vt_1679686462/awana_tt_dog_1-1_1-2.pdf">Discussion Guide</a>`,
+					notes: `<a href="https://s3.amazonaws.com/churchplantmedia-cms/z2_3938_redeeming_grace_church_georgia_vt_1679686462/awana_tt_dog_4-3_4-4.pdf">Discussion Guide</a>`,
 					staff: [
 						{
 							name: 'Keith McClymonds',
@@ -503,11 +494,11 @@ export default {
 						},
 						{
 							name: 'CJ North',
-							role: 'Cubbies Helper',
+							role: 'Cubbies Snack and Craft Helper',
 						},
 						{
 							name: 'Carol Parker',
-							role: 'Cubbies Helper',
+							role: 'Cubbies Snack and Craft Helper',
 						},
 					],
 				},
@@ -530,15 +521,6 @@ export default {
 							role: 'Leader - Closing Assembly',
 						},
 						{
-							name: 'Chris Butler',
-							role: 'Leader - Closing Assembly',
-						},
-						{
-							name: 'Mike Criscolo',
-							role: 'Leader - Closing Assembly',
-						},
-
-						{
 							name: 'Kenny Grey',
 							role: 'Leader - Closing Assembly',
 						},
@@ -560,6 +542,10 @@ export default {
 						},
 						{
 							name: 'Peter Larson',
+							role: 'Leader - Closing Assembly',
+						},
+						{
+							name: 'Chris Butler',
 							role: 'Leader - Closing Assembly',
 						},
 						{
@@ -590,10 +576,6 @@ export default {
 							name: 'Jimmy Williamson',
 							role: 'Leader - Closing Assembly',
 						},
-						{
-							name: 'Sonia Williamson',
-							role: 'Leader - Closing Assembly',
-						},
 					],
 				},
 				{
@@ -604,19 +586,19 @@ export default {
 					staff: [
 						{
 							name: 'Allie Fullerton',
-							role: 'Cubbies Director',
+							role: 'Cubbies Setup - After Club',
 						},
 						{
 							name: 'Jared Fullerton',
-							role: 'Cubbies Director',
+							role: 'Cubbies Setup - After Club',
 						},
 						{
 							name: 'CJ North',
-							role: 'Cubbies Helper',
+							role: 'Cubbies Setup - After Club',
 						},
 						{
 							name: 'Carol Parker',
-							role: 'Cubbies Helper',
+							role: 'Cubbies Setup - After Club',
 						},
 					],
 				},

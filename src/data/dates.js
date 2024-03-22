@@ -2,6 +2,18 @@ const schedules = import.meta.glob('./schedules/*.js', {
 	import: 'default',
 	eager: true,
 });
+
+/**
+ * Represents a list of roles and responsibilities for setting up and managing activities during a club event.
+ * @typedef {Object} Role
+ * @property {string} title - The title of the role.
+ * @property {string[]} responsibilities - An array of responsibilities associated with the role.
+ */
+
+/**
+ * List of roles and their respective responsibilities for club event setup.
+ * @type {Role[]}
+ */
 const roles = [
 	{
 		title: 'Setup - Before Club',
