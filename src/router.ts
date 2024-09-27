@@ -12,15 +12,15 @@ export default createRouter({
 	routes: [
 		{
 			path: '/',
-			component: () => import('@/views/Dates.vue'),
+			component: () => import('./views/Dates.vue'),
 		},
 		{
 			path: '/:date',
-			component: () => import('@/views/DateSingle.vue'),
+			component: () => import('./views/DateSingle.vue'),
 		},
 		{
 			path: '/:date/:name',
-			component: () => import('@/views/PersonTasks.vue'),
+			component: () => import('./views/PersonTasks.vue'),
 		},
 	],
 });

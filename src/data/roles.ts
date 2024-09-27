@@ -1,20 +1,10 @@
-const schedules = import.meta.glob('./schedules/*.js', {
-	import: 'default',
-	eager: true,
-});
+import { Role, RoleTitle } from '../@types/global';
 
-/**
- * Represents a list of roles and responsibilities for setting up and managing activities during a club event.
- * @typedef {Object} Role
- * @property {string} title - The title of the role.
- * @property {string[]} responsibilities - An array of responsibilities associated with the role.
- */
+export const roleByTitle = (title: RoleTitle): Role | undefined => {
+	return roles.find((r) => r.title == title);
+};
 
-/**
- * List of roles and their respective responsibilities for club event setup.
- * @type {Role[]}
- */
-const roles = [
+export const roles: Role[] = [
 	{
 		title: 'Setup - Before Club',
 		responsibilities: [
@@ -45,15 +35,11 @@ const roles = [
 	},
 	{
 		title: 'Director',
-		responsibilities: [
-			'Keep your eye on things and be ready to give direction as needed.',
-		],
+		responsibilities: ['Keep your eye on things and be ready to give direction as needed.'],
 	},
 	{
 		title: 'AV',
-		responsibilities: [
-			'Provide support for audio and slides in the Worship Center.',
-		],
+		responsibilities: ['Provide support for audio and slides in the Worship Center.'],
 	},
 	{
 		title: 'Music Leader - Sparks + T&T',
@@ -127,6 +113,13 @@ const roles = [
 		responsibilities: ['Help keep order during the lesson.'],
 	},
 	{
+		title: 'Sparks - Activity Setup',
+		responsibilities: [
+			'Set up chairs around the tables in the back of the Worship Center.',
+			'Place a coloring sheet at each seat, and place colored pencils/pens on each table.',
+		],
+	},
+	{
 		title: 'Sparks - Activities',
 		responsibilities: [
 			'Immediately after Game Time, help Sparks take a short bathrooms/water break.',
@@ -191,15 +184,11 @@ const roles = [
 	},
 	{
 		title: 'Store Helper',
-		responsibilities: [
-			'Assist the Store Facilitators and Store Clerks as needed.',
-		],
+		responsibilities: ['Assist the Store Facilitators and Store Clerks as needed.'],
 	},
 	{
 		title: 'Filler Games Leader',
-		responsibilities: [
-			'Lead loosely-organized games that are easy to add people to mid-game.',
-		],
+		responsibilities: ['Lead loosely-organized games that are easy to add people to mid-game.'],
 	},
 	{
 		title: 'Filler Games Helper',
@@ -230,9 +219,7 @@ const roles = [
 	},
 	{
 		title: 'Cubbies Game Leader',
-		responsibilities: [
-			'lead some loosely-organized games to keep the kids attention during the first part of club',
-		],
+		responsibilities: ['lead some loosely-organized games to keep the kids attention during the first part of club'],
 	},
 	{
 		title: 'Cubbies Snack Setup',
@@ -280,40 +267,5 @@ const roles = [
 			'Cubbies leader book, teaching cards and animal crackers go back in the cabinet in the Foundations room.',
 		],
 	},
+	{ title: 'Nursery', responsibilities: ["Nursery care for leaders' children who are too young to attend Cubbies."] },
 ];
-
-export const roleByTitle = (title) => {
-	return roles.find((r) => r.title == title);
-};
-
-export const dates = Object.values(schedules);
-
-export const scheduleByDateAndName = (date, name) => {
-	const clubDate = dates.find((d) => d.date == date);
-
-	if (clubDate) {
-		return clubDate.schedule.map((t) => {
-			let event = null;
-			let role = null;
-			t.events.forEach((e) => {
-				if (!role) {
-					const personRole = e.staff.find((s) => s.name == name);
-
-					if (personRole) {
-						const newEvent = { ...e };
-						delete newEvent.staff;
-
-						role = roleByTitle(personRole.role);
-						event = e;
-					}
-				}
-			});
-
-			return {
-				time: t.time,
-				event: event,
-				role: role,
-			};
-		});
-	}
-};

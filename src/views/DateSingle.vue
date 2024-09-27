@@ -1,7 +1,7 @@
 <template>
 	<div class="container">
-		<h1>{{ date.date }}</h1>
-		<section class="time-period" v-for="time in date.schedule">
+		<h1>{{ date?.date }}</h1>
+		<section class="time-period" v-for="time in date?.schedule">
 			<header>
 				<div class="time">{{ time.time }}</div>
 			</header>
@@ -16,23 +16,17 @@
 						<div v-if="event.description" class="event-description">
 							{{ event.description }}
 						</div>
-						<div
-							class="event-notes"
-							v-if="event.notes"
-							v-html="event.notes"
-						></div>
+						<div class="event-notes" v-if="event.notes" v-html="event.notes"></div>
 					</div>
 
 					<div class="event-staff">
-						<div v-if="event.inCharge">
-							<strong>In Charge: </strong>{{ event.inCharge.join(', ') }}
-						</div>
-						<div v-if="event.staff.length">
+						<div v-if="event.inCharge"><strong>In Charge: </strong>{{ event.inCharge.join(', ') }}</div>
+						<div v-if="event.staff?.length">
 							<strong>Staff: </strong>
 							<router-link
 								class="person-link"
-								v-for="(person, i) in event.staff"
-								:to="`/${date.date}/${encodeURIComponent(person.name)}`"
+								v-for="person in event.staff"
+								:to="`/${date?.date}/${encodeURIComponent(person.name)}`"
 							>
 								{{ person.name }}
 							</router-link>
@@ -43,9 +37,9 @@
 		</section>
 	</div>
 </template>
-<script setup>
+<script setup lang="ts">
 import { useRoute } from 'vue-router';
-import { dates } from '@/data/dates.js';
+import { dates } from '@/data/dates';
 const route = useRoute();
 
 const date = dates.find((d) => d.date == route.params.date);

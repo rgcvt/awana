@@ -11,9 +11,7 @@
 						<div class="event-details">
 							<div>◆ {{ task.event.title }}</div>
 							<div v-if="task.event.location">◆ {{ task.event.location }}</div>
-							<div v-if="task.event.inCharge">
-								◆ In Charge: {{ task.event.inCharge.join(', ') }}
-							</div>
+							<div v-if="task.event.inCharge">◆ In Charge: {{ task.event.inCharge.join(', ') }}</div>
 						</div>
 					</div>
 					<div class="roll">
@@ -32,12 +30,13 @@
 		</div>
 	</div>
 </template>
-<script setup>
+<script setup lang="ts">
 import { useRoute } from 'vue-router';
 import { scheduleByDateAndName } from '@/data/dates.js';
+import { Person } from '@/@types/global';
 const route = useRoute();
-const name = decodeURIComponent(route.params.name);
-const date = route.params.date;
+const name = decodeURIComponent(route.params.name.toString()) as Person;
+const date = route.params.date.toString();
 
 const schedule = scheduleByDateAndName(date, name);
 console.log(schedule);
