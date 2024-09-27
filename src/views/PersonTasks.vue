@@ -24,6 +24,11 @@
 							</li>
 						</ul>
 						<div v-if="task.event.notes" v-html="task.event.notes"></div>
+						<template v-if="task.event.smallGroupQuestions">
+							<ol>
+								<li v-for="question in task.event.smallGroupQuestions">{{ question }}</li>
+							</ol>
+						</template>
 					</div>
 				</div>
 			</template>

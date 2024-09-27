@@ -101,6 +101,7 @@ type Event = {
 	inCharge: Person[];
 	staff?: StaffMember[];
 	notes?: string; // Optional for events that may have additional notes
+	smallGroupQuestions?: string[];
 };
 
 type ScheduleItem = {
