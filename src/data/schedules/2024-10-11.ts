@@ -85,6 +85,10 @@ const schedule: Schedule = {
 							role: 'Music Leader - Sparks + T&T',
 						},
 						{
+							name: 'Chris Butler',
+							role: 'Music Helper',
+						},
+						{
 							name: 'Lexi Boardman',
 							role: 'Music Helper',
 						},
@@ -98,14 +102,6 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Sonia Williamson',
-							role: 'Music Helper',
-						},
-						{
-							name: 'Chris Kolar',
-							role: 'Music Helper',
-						},
-						{
-							name: 'Amy Kolar',
 							role: 'Music Helper',
 						},
 						{
@@ -130,6 +126,18 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Carol Parker',
+							role: 'Fast Track',
+						},
+						{
+							name: 'Chris Kolar',
+							role: 'Fast Track',
+						},
+						{
+							name: 'Amy Kolar',
+							role: 'Fast Track',
+						},
+						{
+							name: 'Brad Parker',
 							role: 'Fast Track',
 						},
 					],
@@ -207,6 +215,10 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Brenda Saunders',
+							role: 'Team Helper',
+						},
+						{
+							name: 'Chris Butler',
 							role: 'Team Helper',
 						},
 						{
@@ -362,6 +374,10 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Amy Kolar',
+							role: 'Lesson Helper',
+						},
+						{
+							name: 'Chris Butler',
 							role: 'Lesson Helper',
 						},
 					],
@@ -572,7 +588,7 @@ const schedule: Schedule = {
 							role: 'Small Group Leader',
 						},
 						{
-							name: 'Chelsea Hale',
+							name: 'Chris Butler',
 							role: 'Small Group Leader',
 						},
 						{
@@ -662,6 +678,10 @@ const schedule: Schedule = {
 					staff: [
 						{
 							name: 'Lexi Boardman',
+							role: 'Leader - Closing Assembly',
+						},
+						{
+							name: 'Chris Butler',
 							role: 'Leader - Closing Assembly',
 						},
 						{
