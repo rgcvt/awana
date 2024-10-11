@@ -1,7 +1,7 @@
 import { Schedule } from '../../@types/global';
 
 const schedule: Schedule = {
-	date: '2024-10-10',
+	date: '2024-10-11',
 	schedule: [
 		{
 			time: '5:35 pm',
