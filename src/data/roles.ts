@@ -145,7 +145,6 @@ export const roles: Role[] = [
 	{
 		title: 'Fast Track - Sparks',
 		responsibilities: [
-			'Immediately after Game time, set up the kids chairs that are staged by the sound closet around the long tables in the back of the Worship Center. After setup, go to the Foundations room for Fast Track.',
 			"Listen to Verses: Kids will recite verses they have memorized. They get up to 2 helps per section (there may be more than one verse per section, a section is noted by the space for a leader's signature)",
 			"Help with Comprehension: You don't need to do any deep interpretation, just help them learn any big words and understand the overall meaning of the verse.",
 			'Sign off Sections and give Awana Bucks: After a kid recites the verses in a section with 2 helps or fewer, sign and date the section in their book. Give the kid $1 Awana buck per completed section. Awana Bucks can be found in the Awana cabinet in the Foundations room. When they have completed all their sections, direct them to the Check-in Table.',
