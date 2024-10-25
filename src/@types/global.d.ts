@@ -65,7 +65,7 @@ export type Person =
 	| 'Allie Fullerton'
 	| 'Jared Fullerton'
 	| 'Rebekah Glen'
-	| 'Kenny Grey'
+	| 'Bear Grey'
 	| 'Andrew Hale'
 	| 'Chelsea Hale'
 	| 'Amy Kolar'

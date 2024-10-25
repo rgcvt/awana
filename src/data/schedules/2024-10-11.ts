@@ -109,7 +109,7 @@ const schedule: Schedule = {
 							role: 'Music Helper',
 						},
 						{
-							name: 'Kenny Grey',
+							name: 'Bear Grey',
 							role: 'Music Helper',
 						},
 					],
@@ -246,7 +246,7 @@ const schedule: Schedule = {
 							role: 'Team Helper',
 						},
 						{
-							name: 'Kenny Grey',
+							name: 'Bear Grey',
 							role: 'Score Keeper',
 						},
 					],
@@ -438,10 +438,10 @@ const schedule: Schedule = {
 				{
 					title: 'Setup - During Club',
 					location: 'Worship Center',
-					inCharge: ['Kenny Grey'],
+					inCharge: ['Bear Grey'],
 					staff: [
 						{
-							name: 'Kenny Grey',
+							name: 'Bear Grey',
 							role: 'Setup - During Club',
 						},
 						{
@@ -635,10 +635,10 @@ const schedule: Schedule = {
 				{
 					title: 'Setup - During Club',
 					location: 'Worship Center',
-					inCharge: ['Kenny Grey'],
+					inCharge: ['Bear Grey'],
 					staff: [
 						{
-							name: 'Kenny Grey',
+							name: 'Bear Grey',
 							role: 'Setup - During Club',
 						},
 						{

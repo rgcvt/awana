@@ -1,7 +1,7 @@
 import { Schedule } from '../../@types/global';
 
 const schedule: Schedule = {
-	date: '2024-09-27',
+	date: '2024-10-25',
 	schedule: [
 		{
 			time: '5:35 pm',
@@ -78,7 +78,7 @@ const schedule: Schedule = {
 					location: 'Worship Center',
 					description:
 						'This is a loosely structured time that allows kids to jump in and participate as they arrive from Check-In or Fast Track. ',
-					inCharge: ['Evelyn Larson', 'Julia Larson', 'Amelia Munger'],
+					inCharge: ['Evelyn Larson', 'Julia Larson'],
 					staff: [
 						{
 							name: 'Evelyn Larson',
@@ -89,11 +89,11 @@ const schedule: Schedule = {
 							role: 'Music Leader - Sparks + T&T',
 						},
 						{
-							name: 'Amelia Munger',
-							role: 'Music Leader - Sparks + T&T',
+							name: 'Lexi Boardman',
+							role: 'Music Helper',
 						},
 						{
-							name: 'Lexi Boardman',
+							name: 'Chris Butler',
 							role: 'Music Helper',
 						},
 						{
@@ -116,20 +116,9 @@ const schedule: Schedule = {
 							name: 'Amy Kolar',
 							role: 'Music Helper',
 						},
-						{
-							name: 'Karly Merchant',
-							role: 'Music Helper',
-						},
-						{
-							name: 'Chip Crawford',
-							role: 'Music Helper',
-						},
+
 						{
 							name: 'David Lugo',
-							role: 'Music Helper',
-						},
-						{
-							name: 'Bear Grey',
 							role: 'Music Helper',
 						},
 					],
@@ -150,6 +139,10 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Sandra Ashline',
+							role: 'Fast Track',
+						},
+						{
+							name: 'Carol Parker',
 							role: 'Fast Track',
 						},
 						{
@@ -182,10 +175,6 @@ const schedule: Schedule = {
 						{
 							name: 'Chelsea Boardman',
 							role: 'Cubbies Check-in',
-						},
-						{
-							name: 'Carol Parker',
-							role: 'Cubbies Helper',
 						},
 						{
 							name: 'Sarah Norton',
@@ -233,16 +222,12 @@ const schedule: Schedule = {
 					inCharge: ['Andrew Hale'],
 					staff: [
 						{
-							name: 'Amelia Munger',
-							role: 'Team Captain',
-						},
-						{
 							name: 'Brenda Saunders',
 							role: 'Team Helper',
 						},
 						{
 							name: 'Jimmy Williamson',
-							role: 'Team Captain',
+							role: 'Score Keeper',
 						},
 						{
 							name: 'Chris Kolar',
@@ -253,11 +238,7 @@ const schedule: Schedule = {
 							role: 'Team Helper',
 						},
 						{
-							name: 'Karly Merchant',
-							role: 'Team Captain',
-						},
-						{
-							name: 'Chip Crawford',
+							name: 'Chris Butler',
 							role: 'Team Helper',
 						},
 						{
@@ -288,10 +269,6 @@ const schedule: Schedule = {
 							name: 'Abby Smith',
 							role: 'Team Helper',
 						},
-						{
-							name: 'Bear Grey',
-							role: 'Score Keeper',
-						},
 					],
 				},
 				{
@@ -301,10 +278,6 @@ const schedule: Schedule = {
 					staff: [
 						{
 							name: 'Sonia Williamson',
-							role: 'Sparks - Activity Setup',
-						},
-						{
-							name: 'Julia Larson',
 							role: 'Sparks - Activity Setup',
 						},
 						{
@@ -356,10 +329,6 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Chelsea Boardman',
-							role: 'Cubbies Music Helper',
-						},
-						{
-							name: 'Carol Parker',
 							role: 'Cubbies Music Helper',
 						},
 						{
@@ -430,10 +399,6 @@ const schedule: Schedule = {
 							name: 'Sandra Ashline',
 							role: 'Lesson Helper',
 						},
-						{
-							name: 'Karly Merchant',
-							role: 'Lesson Helper',
-						},
 					],
 				},
 				{
@@ -458,14 +423,7 @@ const schedule: Schedule = {
 							name: 'Brenda Saunders',
 							role: 'Sparks - Activities',
 						},
-						{
-							name: 'Amelia Munger',
-							role: 'Sparks - Activities',
-						},
-						{
-							name: 'Heather Fick',
-							role: 'Fast Track - Sparks',
-						},
+
 						{
 							name: 'Abby Smith',
 							role: 'Fast Track - Sparks',
@@ -475,7 +433,7 @@ const schedule: Schedule = {
 							role: 'Fast Track - Sparks',
 						},
 						{
-							name: 'Julia Larson',
+							name: 'Carol Parker',
 							role: 'Fast Track - Sparks',
 						},
 					],
@@ -494,20 +452,28 @@ const schedule: Schedule = {
 							name: 'Mike / Nikki Criscolo',
 							role: 'Check-In',
 						},
+						{
+							name: 'Heather Fick',
+							role: 'Check-In',
+						},
 					],
 				},
 
 				{
 					title: 'Setup - During Club',
 					location: 'Worship Center',
-					inCharge: ['Bear Grey'],
+					inCharge: ['Andrew Hale'],
 					staff: [
 						{
-							name: 'Bear Grey',
+							name: 'Andrew Hale',
 							role: 'Setup - During Club',
 						},
 						{
 							name: 'Chris Kolar',
+							role: 'Setup - During Club',
+						},
+						{
+							name: 'Chris Butler',
 							role: 'Setup - During Club',
 						},
 						{
@@ -520,10 +486,6 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'David Lugo',
-							role: 'Setup - During Club',
-						},
-						{
-							name: 'Chip Crawford',
 							role: 'Setup - During Club',
 						},
 					],
@@ -548,10 +510,6 @@ const schedule: Schedule = {
 						{
 							name: 'Chelsea Boardman',
 							role: 'Cubbies Puppeteer',
-						},
-						{
-							name: 'Carol Parker',
-							role: 'Cubbies Lesson Helper',
 						},
 						{
 							name: 'Sarah Norton',
@@ -614,11 +572,11 @@ const schedule: Schedule = {
 							role: 'Lesson Helper',
 						},
 						{
-							name: 'Amelia Munger',
+							name: 'Heather Fick',
 							role: 'Lesson Helper',
 						},
 						{
-							name: 'Heather Fick',
+							name: 'Carol Parker',
 							role: 'Lesson Helper',
 						},
 					],
@@ -662,11 +620,7 @@ const schedule: Schedule = {
 							role: 'Small Group Leader',
 						},
 						{
-							name: 'Karly Merchant',
-							role: 'Small Group Leader',
-						},
-						{
-							name: 'Chip Crawford',
+							name: 'Chris Butler',
 							role: 'Small Group Leader',
 						},
 						{
@@ -701,10 +655,6 @@ const schedule: Schedule = {
 							role: 'Cubbies Snack and Craft Helper',
 						},
 						{
-							name: 'Carol Parker',
-							role: 'Cubbies Snack and Craft Helper',
-						},
-						{
 							name: 'Sarah Norton',
 							role: 'Cubbies Snack and Craft Helper',
 						},
@@ -721,10 +671,10 @@ const schedule: Schedule = {
 				{
 					title: 'Setup - During Club',
 					location: 'Worship Center',
-					inCharge: ['Bear Grey'],
+					inCharge: ['Andrew Hale'],
 					staff: [
 						{
-							name: 'Bear Grey',
+							name: 'Andrew Hale',
 							role: 'Setup - During Club',
 						},
 						{
@@ -733,10 +683,6 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Jacob Smith',
-							role: 'Setup - During Club',
-						},
-						{
-							name: 'Julia Larson',
 							role: 'Setup - During Club',
 						},
 					],
@@ -775,7 +721,7 @@ const schedule: Schedule = {
 							role: 'Leader - Closing Assembly',
 						},
 						{
-							name: 'Amelia Munger',
+							name: 'Chris Butler',
 							role: 'Leader - Closing Assembly',
 						},
 						{
@@ -792,10 +738,6 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Jimmy Williamson',
-							role: 'Leader - Closing Assembly',
-						},
-						{
-							name: 'Julia Larson',
 							role: 'Leader - Closing Assembly',
 						},
 						{
@@ -826,14 +768,7 @@ const schedule: Schedule = {
 							name: 'Naomi Walters',
 							role: 'Leader - Closing Assembly',
 						},
-						{
-							name: 'Karly Merchant',
-							role: 'Leader - Closing Assembly',
-						},
-						{
-							name: 'Chip Crawford',
-							role: 'Leader - Closing Assembly',
-						},
+
 						{
 							name: 'Evelyn Larson',
 							role: 'Leader - Closing Assembly',
@@ -863,10 +798,6 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Chelsea Boardman',
-							role: 'Cubbies Setup - After Club',
-						},
-						{
-							name: 'Carol Parker',
 							role: 'Cubbies Setup - After Club',
 						},
 						{
