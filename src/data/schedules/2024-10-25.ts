@@ -34,10 +34,6 @@ const schedule: Schedule = {
 							name: 'Ashley Smith',
 							role: 'Nursery',
 						},
-						{
-							name: 'Ella Albert',
-							role: 'Nursery',
-						},
 					],
 				},
 			],
@@ -90,6 +86,10 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Lexi Boardman',
+							role: 'Music Helper',
+						},
+						{
+							name: 'Ella Albert',
 							role: 'Music Helper',
 						},
 						{
@@ -203,10 +203,6 @@ const schedule: Schedule = {
 							name: 'Ashley Smith',
 							role: 'Nursery',
 						},
-						{
-							name: 'Ella Albert',
-							role: 'Nursery',
-						},
 					],
 				},
 			],
@@ -282,6 +278,10 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Lexi Boardman',
+							role: 'Sparks - Activity Setup',
+						},
+						{
+							name: 'Ella Albert',
 							role: 'Sparks - Activity Setup',
 						},
 					],
@@ -362,10 +362,6 @@ const schedule: Schedule = {
 							name: 'Ashley Smith',
 							role: 'Nursery',
 						},
-						{
-							name: 'Ella Albert',
-							role: 'Nursery',
-						},
 					],
 				},
 			],
@@ -417,6 +413,10 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Lexi Boardman',
+							role: 'Sparks - Activities',
+						},
+						{
+							name: 'Ella Albert',
 							role: 'Sparks - Activities',
 						},
 						{
@@ -538,10 +538,6 @@ const schedule: Schedule = {
 							name: 'Ashley Smith',
 							role: 'Nursery',
 						},
-						{
-							name: 'Ella Albert',
-							role: 'Nursery',
-						},
 					],
 				},
 			],
@@ -567,6 +563,7 @@ const schedule: Schedule = {
 							name: 'Lexi Boardman',
 							role: 'Lesson Helper',
 						},
+
 						{
 							name: 'Brenda Saunders',
 							role: 'Lesson Helper',
@@ -685,6 +682,10 @@ const schedule: Schedule = {
 							name: 'Jacob Smith',
 							role: 'Setup - During Club',
 						},
+						{
+							name: 'Ella Albert',
+							role: 'Setup - During Club',
+						},
 					],
 				},
 				{
@@ -698,10 +699,6 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Ashley Smith',
-							role: 'Nursery',
-						},
-						{
-							name: 'Ella Albert',
 							role: 'Nursery',
 						},
 					],
@@ -718,6 +715,10 @@ const schedule: Schedule = {
 					staff: [
 						{
 							name: 'Lexi Boardman',
+							role: 'Leader - Closing Assembly',
+						},
+						{
+							name: 'Ella Albert',
 							role: 'Leader - Closing Assembly',
 						},
 						{
@@ -825,10 +826,6 @@ const schedule: Schedule = {
 						},
 						{
 							name: 'Ashley Smith',
-							role: 'Nursery',
-						},
-						{
-							name: 'Ella Albert',
 							role: 'Nursery',
 						},
 					],
