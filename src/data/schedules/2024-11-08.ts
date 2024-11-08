@@ -572,9 +572,11 @@ const schedule: Schedule = {
 					location: 'Worship Center + Foundations Room',
 					inCharge: ['Keith McClymonds', 'Niki McClymonds'],
 					smallGroupQuestions: [
-						'Read 1 John 1:5-2:2. With your group, find all the times these verses say "God is..."  or "He is...", or where they describe God or Jesus. If your friend asked you, What is God like? how would you answer?',
-						"Some people think they believe there is no God.  Mr. Parker showed us from Romans 1 how that's not really true.  But if you have a friend who thinks they believe there is no God, how might you try to help them see that there is a God?",
-						'For the leaders:  Tell a part of your story -- before you came to Christ, who did you think God was or what did you think he was like?  How did God reveal to you your misconceptions?',
+						"What do the peoples think about being under God's authority?",
+						'What are some ways people try to "break free" from God\'s authority?',
+						'From this Psalm, what are some of the ways God responds when people rebel against his authority?',
+						'What does God promise Jesus in this Psalm? (and how do you know this is about Jesus?)',
+						'What warnings and promises does God give YOU in this Psalm?',
 					],
 					staff: [
 						{
