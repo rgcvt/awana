@@ -572,6 +572,7 @@ const schedule: Schedule = {
 					location: 'Worship Center + Foundations Room',
 					inCharge: ['Keith McClymonds', 'Niki McClymonds'],
 					smallGroupQuestions: [
+						'Read Psalm 2 together.',
 						"What do the peoples think about being under God's authority?",
 						'What are some ways people try to "break free" from God\'s authority?',
 						'From this Psalm, what are some of the ways God responds when people rebel against his authority?',
