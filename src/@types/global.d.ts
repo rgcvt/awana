@@ -85,7 +85,7 @@ export type Person =
 	| 'Ashley Smith'
 	| 'Jacob Smith'
 	| 'Nick Smith'
-	| 'Naomi Walters'
+	| 'Naomi Lugo'
 	| 'Jimmy Williamson'
 	| 'Sonia Williamson';
 

@@ -60,7 +60,7 @@ const schedule: Schedule = {
 							role: 'Check-In',
 						},
 						{
-							name: 'Naomi Walters',
+							name: 'Naomi Lugo',
 							role: 'Check-In',
 						},
 						{
@@ -305,7 +305,7 @@ const schedule: Schedule = {
 							role: 'Check-In',
 						},
 						{
-							name: 'Naomi Walters',
+							name: 'Naomi Lugo',
 							role: 'Check-In',
 						},
 					],
@@ -481,7 +481,7 @@ const schedule: Schedule = {
 							role: 'Setup - During Club',
 						},
 						{
-							name: 'Naomi Walters',
+							name: 'Naomi Lugo',
 							role: 'Setup - During Club',
 						},
 						{
@@ -613,7 +613,7 @@ const schedule: Schedule = {
 							role: 'Small Group Leader',
 						},
 						{
-							name: 'Naomi Walters',
+							name: 'Naomi Lugo',
 							role: 'Small Group Leader',
 						},
 						{
@@ -766,7 +766,7 @@ const schedule: Schedule = {
 							role: 'Leader - Closing Assembly',
 						},
 						{
-							name: 'Naomi Walters',
+							name: 'Naomi Lugo',
 							role: 'Leader - Closing Assembly',
 						},
 
