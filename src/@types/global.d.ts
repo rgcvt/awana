@@ -75,7 +75,7 @@ export type Person =
 	| 'David Lugo'
 	| 'Keith McClymonds'
 	| 'Niki McClymonds'
-	| 'Karly Merchant'
+	| 'Karly Crawford'
 	| 'Amelia Munger'
 	| 'Sarah Norton'
 	| 'Brad Parker'
