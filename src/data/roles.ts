@@ -115,23 +115,26 @@ export const roles: Role[] = [
 	{
 		title: 'Sparks - Activity Setup',
 		responsibilities: [
-			'Set up chairs around the tables in the back of the Worship Center.',
-			'Place a coloring sheet at each seat, and place colored pencils/pens on each table.',
+			'Set up 4 2-chair sets in the hallway for Fast Track',
+			'Set up 1 table with chairs in the Foundations room.',
+			'Place a stack of coloring sheets and pencils/pens on each table.',
+			'Set up 4 3-chair sets in the foundations room',
 		],
 	},
 	{
 		title: 'Sparks - Activities',
 		responsibilities: [
-			'Immediately after Game Time, help Sparks take a short bathrooms/water break.',
-			'Ensure everyone has a seat, a coloring sheet and access to crayons/colored pencils',
-			'Direct semi-structured activity (eg sword drill, duck duck goose, Simon Says, red light green light) for kids who get restless coloring.',
+			'Immediately after Game Time, help Sparks take a short bathroom/water break.',
+			'Head to the Foundations room.',
+			'Find 2 kids and bring them to one of the groups of 3-chairs',
+			'Use the activity/memorization sheet to help the kids memorize or more clearly understand the verse for the week.',
 		],
 	},
 	{
 		title: 'Sparks Director - Fast Track',
 		responsibilities: [
 			'Immediately after Game Time, help Sparks take a short bathrooms/water break.',
-			'Using the provided roster, determine who has verses to recite, and send those kids a few at a time to Fast Track. The goal is to always have 4-5 kids at Fast Track.',
+			'Using the provided roster, determine who has verses to recite, and send those kids a few at a time to Fast Track. The goal is to always have 4 kids at Fast Track.',
 		],
 	},
 	{
