@@ -34,11 +34,11 @@ const schedule: Schedule = {
 					staff: [
 						{
 							name: 'Mike / Nikki Criscolo',
-							role: 'Check-In',
+							role: 'Check-In (Store Night)',
 						},
 						{
 							name: 'Heather Fick',
-							role: 'Check-In',
+							role: 'Check-In (Store Night)',
 						},
 						{
 							name: 'Keith McClymonds',
@@ -250,11 +250,11 @@ const schedule: Schedule = {
 					staff: [
 						{
 							name: 'Mike / Nikki Criscolo',
-							role: 'Check-In',
+							role: 'Check-In (Store Night)',
 						},
 						{
 							name: 'Heather Fick',
-							role: 'Check-In',
+							role: 'Check-In (Store Night)',
 						},
 						{
 							name: 'Keith McClymonds',
@@ -402,11 +402,11 @@ const schedule: Schedule = {
 					staff: [
 						{
 							name: 'Mike / Nikki Criscolo',
-							role: 'Check-In',
+							role: 'Check-In (Store Night)',
 						},
 						{
 							name: 'Heather Fick',
-							role: 'Check-In',
+							role: 'Check-In (Store Night)',
 						},
 					],
 				},
