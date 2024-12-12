@@ -9,16 +9,22 @@ export const roles: Role[] = [
 		title: 'Setup - Before Club',
 		responsibilities: [
 			'Worship Center - Stack Chairs: Stack all the chairs in the Worship Center. Leave the last 2 chairs on the outside of each row in place and stack the rest of the chairs from each row on top of these.',
-			'Worship Center - Sparks Activity Tables: In the back of the Worship Center, set up 3 long tables. Bring in 30 chairs from the foundations room and stage them in the Worship center by the sound closet.',
 			"Chery's Office - Lesson: Fold up all tables, stack any chairs, set up one chair by the whiteboard for Brad.",
 			'Foundations Room - Fast Track Setup: 5 pairs of chairs',
 			'Foyer - Check-In: Set up 1 long table on the north side of Worship Center doors, 1 long table on the south side of the doors.',
 		],
 	},
 	{
+		title: 'Setup - Before Store',
+		responsibilities: [
+			'Worship Center - Stack Chairs: Stack all the chairs in the Worship Center. Leave the last 2 chairs on the outside of each row in place and stack the rest of the chairs from each row on top of these.',
+			'Foyer - Check-In: Set up 1 long table on the north side of Worship Center doors, 1 long table on the south side of the doors.',
+		],
+	},
+	{
 		title: 'Setup - During Club',
 		responsibilities: [
-			'Worship Center - Return Chairs to their usual position. 11 rows of 11 chairs on each side.  Plumb lines for aligning the chair rows are in the closet.',
+			'Worship Center - Return Chairs to their usual position. 13 rows of 11 chairs on each side.  Plumb lines for aligning the chair rows are in the closet.',
 		],
 	},
 	{
@@ -116,9 +122,9 @@ export const roles: Role[] = [
 		title: 'Sparks - Activity Setup',
 		responsibilities: [
 			'Set up 4 2-chair sets in the hallway for Fast Track',
-			'Set up 1 table with chairs in the Foundations room.',
+			'Set up 1 table with chairs in the room.',
 			'Place a stack of coloring sheets and pencils/pens on each table.',
-			'Set up 4 3-chair sets in the foundations room',
+			'Set up 4 3-chair sets in the room',
 		],
 	},
 	{

@@ -1,5 +1,6 @@
 type RoleTitle =
 	| 'Setup - Before Club'
+	| 'Setup - Before Store'
 	| 'Setup - During Club'
 	| 'Photographer/Videographer'
 	| 'Cubbies Director'
