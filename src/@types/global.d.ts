@@ -1,7 +1,10 @@
+import type { people } from '@/data/people';
+
 type RoleTitle =
 	| 'Setup - Before Club'
 	| 'Setup - Before Store'
 	| 'Setup - During Club'
+	| 'Setup - After Club'
 	| 'Photographer/Videographer'
 	| 'Cubbies Director'
 	| 'Cubbies Helper'
@@ -12,8 +15,11 @@ type RoleTitle =
 	| 'Music Leader - Cubbies'
 	| 'Check-In'
 	| 'Check-In (Store Night)'
+	| 'Progress Tracking'
+	| 'Check-Out'
 	| 'Fast Track'
 	| 'Score Keeper'
+	| 'Game Helper'
 	| 'Game Director'
 	| 'Team Captain'
 	| 'Team Helper'
@@ -47,52 +53,10 @@ interface Role {
 	title: RoleTitle;
 	responsibilities: string[];
 }
+type Person = (typeof people)[number];
 
-export type Person =
-	| 'Ella Albert'
-	| 'Cailey Appenzeller'
-	| 'Kirsten Appenzeller'
-	| 'Ben Ashline'
-	| 'Sandra Ashline'
-	| 'Chelsea Boardman'
-	| 'Lexi Boardman'
-	| 'Matt Boardman'
-	| 'Chapin Bond'
-	| 'Lindsey Bond'
-	| 'Chris Butler'
-	| 'Chip Crawford'
-	| 'Mike / Nikki Criscolo'
-	| 'Heather Fick'
-	| 'Allie Fullerton'
-	| 'Jared Fullerton'
-	| 'Rebekah Glen'
-	| 'Bear Grey'
-	| 'Andrew Hale'
-	| 'Chelsea Hale'
-	| 'Amy Kolar'
-	| 'Chris Kolar'
-	| 'Evelyn Larson'
-	| 'Julia Larson'
-	| 'David Lugo'
-	| 'Keith McClymonds'
-	| 'Niki McClymonds'
-	| 'Karly Crawford'
-	| 'Amelia Munger'
-	| 'Sarah Norton'
-	| 'Brad Parker'
-	| 'Carol Parker'
-	| 'Brenda Saunders'
-	| 'Abby Smith'
-	| 'Ashley Smith'
-	| 'Jacob Smith'
-	| 'Nick Smith'
-	| 'Naomi Lugo'
-	| 'Jimmy Williamson'
-	| 'Sonia Williamson';
-
-type StaffMember = {
-	name: Person;
-	role: RoleTitle;
+type EventRoles = {
+	[K in RoleTitle]?: Person[];
 };
 
 type Event = {
@@ -100,7 +64,7 @@ type Event = {
 	location: string;
 	description?: string;
 	inCharge: Person[];
-	staff?: StaffMember[];
+	roles: EventRoles;
 	notes?: string; // Optional for events that may have additional notes
 	smallGroupQuestions?: string[];
 };

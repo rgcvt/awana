@@ -21,8 +21,16 @@ export default createRouter({
 			component: () => import('./views/DateSingle.vue'),
 		},
 		{
+			path: '/:date/assign',
+			component: () => import('./views/Assign.vue'),
+		},
+		{
 			path: '/:date/:name',
 			component: () => import('./views/PersonTasks.vue'),
+		},
+		{
+			path: '/default',
+			component: () => import('./views/Default.vue'),
 		},
 	],
 });

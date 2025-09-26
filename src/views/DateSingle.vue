@@ -21,15 +21,17 @@
 
 					<div class="event-staff">
 						<div v-if="event.inCharge"><strong>In Charge: </strong>{{ event.inCharge.join(', ') }}</div>
-						<div v-if="event.staff?.length">
+						<div v-if="Object.keys(event.roles).length">
 							<strong>Staff: </strong>
-							<router-link
-								class="person-link"
-								v-for="person in event.staff"
-								:to="`/${date?.date}/${encodeURIComponent(person.name)}`"
-							>
-								{{ person.name }}
-							</router-link>
+							<template v-for="names in event.roles">
+								<router-link
+									class="person-link"
+									v-for="name in names"
+									:to="`/${date?.date}/${encodeURIComponent(name)}`"
+								>
+									{{ name }}
+								</router-link>
+							</template>
 						</div>
 					</div>
 				</div>
@@ -44,7 +46,7 @@ const route = useRoute();
 
 const date = dates.find((d) => d.date == route.params.date);
 </script>
-<style scoped lang="scss">
+<style scoped>
 h3 {
 	margin: 0;
 }

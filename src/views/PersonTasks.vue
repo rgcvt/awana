@@ -38,15 +38,14 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
 import { scheduleByDateAndName } from '@/data/dates.js';
-import { Person } from '@/@types/global';
+import type { Person } from '@/@types/global';
 const route = useRoute();
-const name = decodeURIComponent(route.params.name.toString()) as Person;
-const date = route.params.date.toString();
+const name = decodeURIComponent(route.params.name!.toString()) as Person;
+const date = route.params.date!.toString();
 
 const schedule = scheduleByDateAndName(date, name);
-console.log(schedule);
 </script>
-<style scoped lang="scss">
+<style scoped>
 .tasks {
 	display: grid;
 	gap: var(--space-sm);

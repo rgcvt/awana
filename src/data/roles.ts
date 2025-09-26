@@ -1,4 +1,4 @@
-import { Role, RoleTitle } from '../@types/global';
+import type { Role, RoleTitle } from '@/@types/global';
 
 export const roleByTitle = (title: RoleTitle): Role | undefined => {
 	return roles.find((r) => r.title == title);
@@ -12,6 +12,16 @@ export const roles: Role[] = [
 			"Chery's Office - Lesson: Fold up all tables, stack any chairs, set up one chair by the whiteboard for Brad.",
 			'Foundations Room - Fast Track Setup: 5 pairs of chairs',
 			'Foyer - Check-In: Set up 1 long table on the north side of Worship Center doors, 1 long table on the south side of the doors.',
+			'Signs - Get the door signs from the Awana cabinet in the Foundations Room - put them up on the side doors.',
+		],
+	},
+	{
+		title: 'Setup - After Club',
+		responsibilities: [
+			"Chery's Office: Fold up all chairs, set up 2 tables back to back in the center of the room, close any open windows.",
+			'Foundations Room: Sunday school setup: 3 tables, each parallel to the white board, each with 5 chairs around it',
+			'Signs: Remove all signs from exterior doors, return them to the Awana cabinet in the Foundations Room',
+			"Foyer - After Check-Out: Collapse book table by Cheryl's office. Return to Cheryl's office. Collapse check-in table, return to AV closet.",
 		],
 	},
 	{
@@ -45,7 +55,7 @@ export const roles: Role[] = [
 	},
 	{
 		title: 'AV',
-		responsibilities: ['Provide support for audio and slides in the Worship Center.'],
+		responsibilities: ['Provide support for audio in the Worship Center.'],
 	},
 	{
 		title: 'Music Leader - Sparks + T&T',
@@ -81,6 +91,16 @@ export const roles: Role[] = [
 		],
 	},
 	{
+		title: 'Progress Tracking',
+		responsibilities: ['Record progress when a child completes Fast Track.'],
+	},
+	{
+		title: 'Check-Out',
+		responsibilities: [
+			'Be available to help parents with administrative tasks (dues, books, information/questions, etc)',
+		],
+	},
+	{
 		title: 'Fast Track',
 		responsibilities: [
 			"Listen to Verses: Kids will recite verses they have memorized. They get up to 2 helps per section (there may be more than one verse per section, a section is noted by the space for a leader's signature)",
@@ -99,6 +119,10 @@ export const roles: Role[] = [
 	{
 		title: 'Game Director',
 		responsibilities: ['Plan and lead games during Game Time'],
+	},
+	{
+		title: 'Game Helper',
+		responsibilities: ['Help the Game Director by resetting pins, distributing fgame supplies, etc.'],
 	},
 	{
 		title: 'Team Captain',

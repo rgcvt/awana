@@ -1,4 +1,4 @@
-import { Event, Person, Role, Schedule } from '../@types/global';
+import type { Event, Person, Role, RoleTitle, Schedule } from '@/@types/global';
 import { roleByTitle } from './roles';
 
 const schedules = import.meta.glob('./schedules/*.ts', {
@@ -26,16 +26,16 @@ export const scheduleByDateAndName = (date: string, name: Person): StaffSchedule
 			let role = null;
 			let event = null;
 			t.events.forEach((e) => {
-				if (!found) {
-					const personRole = e.staff?.find((s) => s.name == name);
+				for (const r in e.roles) {
+					const roleTitle = r as RoleTitle;
+					if (!found) {
+						const foundName = e.roles![roleTitle]!.find((n) => n == name);
 
-					if (personRole) {
-						const newEvent = { ...e };
-						delete newEvent.staff;
-
-						role = roleByTitle(personRole.role);
-						event = e;
-						found = true;
+						if (foundName) {
+							role = roleByTitle(roleTitle);
+							event = e;
+							found = true;
+						}
 					}
 				}
 			});
