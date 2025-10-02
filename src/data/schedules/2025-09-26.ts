@@ -2,6 +2,7 @@ import type { Schedule } from '@/@types/global';
 
 const schedule: Schedule = {
 	date: '2025-09-26',
+	out: [],
 	schedule: [
 		{
 			time: '5:35 pm',

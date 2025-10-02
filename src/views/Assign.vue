@@ -23,15 +23,16 @@
 						<div class="event-staff">
 							<div v-if="event.inCharge"><strong>In Charge: </strong>{{ event.inCharge.join(', ') }}</div>
 							<div v-if="Object.keys(event.roles).length">
-								<strong>Staff: </strong>
-								<template v-for="names in event.roles">
-									<router-link
-										class="person-link"
-										v-for="name in names"
-										:to="`/${date?.date}/${encodeURIComponent(name)}`"
-									>
-										{{ name }}
-									</router-link>
+								<template v-for="(names, role) in event.roles">
+									<div>
+										{{ role }}:<br />
+										<template v-for="name in names">
+											<s v-if="date?.out.includes(name)">{{ name }}</s>
+											<router-link v-else class="person-link" :to="`/${date?.date}/${encodeURIComponent(name)}`">
+												{{ name }}
+											</router-link>
+										</template>
+									</div>
 								</template>
 							</div>
 						</div>
@@ -80,7 +81,7 @@ const unassigned = (scheduleItem: ScheduleItem) => {
 	if (duplicates.length) {
 		console.error({ scheduleItem, duplicates });
 	}
-	return people.filter((person) => !assigned.includes(person));
+	return people.filter((person) => !assigned.includes(person) && !date!.out.includes(person));
 };
 </script>
 <style scoped>

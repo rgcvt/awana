@@ -76,5 +76,6 @@ type ScheduleItem = {
 
 type Schedule = {
 	date: string;
+	out: Person[];
 	schedule: ScheduleItem[];
 };

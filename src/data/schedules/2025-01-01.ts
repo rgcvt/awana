@@ -2,7 +2,7 @@ import type { Schedule } from '@/@types/global';
 
 const schedule: Schedule = {
 	date: '2025-01-01',
-	out: ['Jacob Smith', 'Ethan Walters', 'Holly Raiche'],
+	out: ['Jacob Smith', 'Ethan Walters'],
 	schedule: [
 		{
 			time: '5:35 pm',
