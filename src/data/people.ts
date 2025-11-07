@@ -31,6 +31,7 @@ export const people = [
 	'Corrine Thomas',
 	'Josh Thomas',
 	'Ethan Walters',
+	'Levi Walters',
 	'Baxter Williamson',
 	'Jimmy Williamson',
 	'Sonia Williamson',
