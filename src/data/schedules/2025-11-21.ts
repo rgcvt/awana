@@ -1,8 +1,16 @@
 import type { Schedule } from '@/@types/global';
 
 const schedule: Schedule = {
-	date: '2025-01-01',
-	out: ['Jacob Smith', 'Ethan Walters', 'Holly Raiche', 'Levi Walters'],
+	date: '2025-11-21',
+	out: [
+		'Jacob Smith',
+		'Ethan Walters',
+		'Levi Walters',
+		'Holly Raiche',
+		'Keith McClymonds',
+		'Niki McClymonds',
+		'Kenzie McClymonds',
+	],
 	schedule: [
 		{
 			time: '5:35 pm',
@@ -43,7 +51,6 @@ const schedule: Schedule = {
 						AV: ['Josh Larson'],
 						'Music Helper': [
 							'Chris Butler',
-							'Isaiah Parker',
 							'Gavin Sylvia',
 							'Corrine Thomas',
 							'Josh Thomas',
@@ -57,16 +64,9 @@ const schedule: Schedule = {
 					title: 'T&T Fast Track',
 					description: 'Fast Track is the time when kids recite scriptures they have memorized.',
 					location: 'Foundations Room',
-					inCharge: ['Keith McClymonds'],
+					inCharge: ['Andrew Hale'],
 					roles: {
-						'Fast Track': [
-							'Keith McClymonds',
-							'Niki McClymonds',
-							'Chip Crawford',
-							'Karly Crawford',
-							'Mike Criscolo',
-							'Nick Smith',
-						],
+						'Fast Track': ['Chip Crawford', 'Karly Crawford', 'Mike Criscolo', 'Nick Smith'],
 					},
 				},
 				{
@@ -76,7 +76,7 @@ const schedule: Schedule = {
 					roles: {
 						'Cubbies Game Leader': ['David Lugo'],
 						'Cubbies Check-in': ['Naomi Lugo'],
-						'Cubbies Helper': ['Jared Fullerton', 'Allie Fullerton', 'Kenzie McClymonds'],
+						'Cubbies Helper': ['Jared Fullerton', 'Allie Fullerton', 'Isaiah Parker'],
 					},
 				},
 				{
@@ -97,7 +97,7 @@ const schedule: Schedule = {
 					location: 'Worship Center',
 					description:
 						'Game time is purposeful. We teach teamwork, sportsmanship, learning and following rules, and healthy competitiveness.',
-					inCharge: ['CJ North'],
+					inCharge: ['Andrew Hale'],
 					roles: {
 						'Game Director': ['CJ North', 'Andrew Hale'],
 						'Team Helper': [
@@ -107,18 +107,10 @@ const schedule: Schedule = {
 							'Josh Thomas',
 							'Chip Crawford',
 							'Karly Crawford',
-							'Keith McClymonds',
 						],
-						'Team Captain': [
-							'Josh Larson',
-							'Chris Butler',
-							'Nick Smith',
-							'Jimmy Williamson',
-							'Niki McClymonds',
-							'Mike Criscolo',
-						],
-						'Game Helper': ['Isaiah Parker'],
-						'Score Keeper': ['Gavin Sylvia', 'Baxter Williamson'],
+						'Team Captain': ['Josh Larson', 'Chris Butler', 'Nick Smith', 'Jimmy Williamson', 'Mike Criscolo'],
+						'Game Helper': ['Gavin Sylvia'],
+						'Score Keeper': ['Baxter Williamson'],
 					},
 				},
 				{
@@ -145,7 +137,7 @@ const schedule: Schedule = {
 					roles: {
 						'Music Leader - Cubbies': ['Evelyn Larson'],
 						'Cubbies Director': ['David Lugo'],
-						'Cubbies Music Helper': ['Allie Fullerton', 'Jared Fullerton', 'Kenzie McClymonds', 'Naomi Lugo'],
+						'Cubbies Music Helper': ['Allie Fullerton', 'Jared Fullerton', 'Isaiah Parker', 'Naomi Lugo'],
 					},
 				},
 				{
@@ -167,8 +159,6 @@ const schedule: Schedule = {
 					roles: {
 						Teacher: ['Brad Parker'],
 						'Lesson Helper': [
-							'Keith McClymonds',
-							'Niki McClymonds',
 							'Chip Crawford',
 							'Karly Crawford',
 							'Mike Criscolo',
@@ -206,7 +196,7 @@ const schedule: Schedule = {
 					location: 'Worship Center',
 					inCharge: ['Josh Larson'],
 					roles: {
-						'Setup - During Club': ['Josh Larson', 'Isaiah Parker', 'Gavin Sylvia', 'Baxter Williamson'],
+						'Setup - During Club': ['Josh Larson', 'Gavin Sylvia', 'Baxter Williamson'],
 					},
 				},
 				{
@@ -216,7 +206,7 @@ const schedule: Schedule = {
 					roles: {
 						'Cubbies Teacher': ['David Lugo'],
 						'Cubbies Puppeteer': ['Naomi Lugo'],
-						'Cubbies Lesson Helper': ['Allie Fullerton', 'Jared Fullerton', 'Kenzie McClymonds'],
+						'Cubbies Lesson Helper': ['Allie Fullerton', 'Jared Fullerton', 'Isaiah Parker'],
 					},
 				},
 				{
@@ -250,7 +240,7 @@ const schedule: Schedule = {
 				{
 					title: 'T&T Small Groups',
 					location: 'Worship Center + Foundations Room',
-					inCharge: ['Keith McClymonds', 'Niki McClymonds'],
+					inCharge: ['Andrew Hale'],
 					smallGroupQuestions: [],
 					roles: {
 						'Small Group Leader': [
@@ -260,8 +250,6 @@ const schedule: Schedule = {
 							'Mike Criscolo',
 							'Evelyn Larson',
 							'Julia Larson',
-							'Niki McClymonds',
-							'Keith McClymonds',
 							'CJ North',
 							'Nick Smith',
 						],
@@ -282,7 +270,7 @@ const schedule: Schedule = {
 					inCharge: ['David Lugo', 'Naomi Lugo'],
 					roles: {
 						'Cubbies Director': ['David Lugo'],
-						'Cubbies Snack and Craft Helper': ['Allie Fullerton', 'Jared Fullerton', 'Kenzie McClymonds', 'Naomi Lugo'],
+						'Cubbies Snack and Craft Helper': ['Allie Fullerton', 'Jared Fullerton', 'Isaiah Parker', 'Naomi Lugo'],
 					},
 				},
 				{
@@ -290,7 +278,7 @@ const schedule: Schedule = {
 					location: 'Worship Center',
 					inCharge: ['Josh Larson'],
 					roles: {
-						'Setup - During Club': ['Josh Larson', 'Isaiah Parker', 'Gavin Sylvia', 'Baxter Williamson'],
+						'Setup - During Club': ['Josh Larson', 'Gavin Sylvia', 'Baxter Williamson'],
 					},
 				},
 				{
@@ -318,8 +306,6 @@ const schedule: Schedule = {
 							'Mike Criscolo',
 							'Evelyn Larson',
 							'Julia Larson',
-							'Niki McClymonds',
-							'Keith McClymonds',
 							'CJ North',
 							'Nick Smith',
 							'Corrine Thomas',
@@ -335,7 +321,7 @@ const schedule: Schedule = {
 					location: 'Worship Center',
 					inCharge: ['Josh Larson'],
 					roles: {
-						'Setup - After Club': ['Josh Larson', 'Isaiah Parker', 'Gavin Sylvia', 'Baxter Williamson'],
+						'Setup - After Club': ['Josh Larson', 'Gavin Sylvia', 'Baxter Williamson'],
 					},
 				},
 				{
@@ -346,7 +332,7 @@ const schedule: Schedule = {
 						'Cubbies Setup - After Club': [
 							'David Lugo',
 							'Naomi Lugo',
-							'Kenzie McClymonds',
+							'Isaiah Parker',
 							'Jared Fullerton',
 							'Allie Fullerton',
 						],
