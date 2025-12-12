@@ -36,4 +36,6 @@ export const people = [
 	'Jimmy Williamson',
 	'Sonia Williamson',
 	'Cheryl Zeigler',
+	'Johnny Johnson',
+	'Karen Johnson',
 ] as const;

@@ -32,5 +32,13 @@ export default createRouter({
 			path: '/default',
 			component: () => import('./views/Default.vue'),
 		},
+		{
+			path: '/store',
+			component: () => import('./views/Store.vue'),
+		},
+		{
+			path: '/store/assign',
+			component: () => import('./views/StoreAssign.vue'),
+		},
 	],
 });

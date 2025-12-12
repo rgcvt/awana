@@ -1,8 +1,18 @@
 import type { Schedule } from '@/@types/global';
 
 const schedule: Schedule = {
-	date: '2025-01-01',
-	out: ['Jacob Smith', 'Ethan Walters', 'Holly Raiche', 'Levi Walters', 'Johnny Johnson', 'Karen Johnson'],
+	date: '2025-12-12',
+	out: [
+		'Ethan Walters',
+		'Holly Raiche',
+		'Levi Walters',
+		'Heather Fick',
+		'CJ North',
+		'Chip Crawford',
+		'Karly Crawford',
+		'Cheryl Zeigler',
+		'Josh Thomas',
+	],
 	schedule: [
 		{
 			time: '5:35 pm',
@@ -12,9 +22,9 @@ const schedule: Schedule = {
 					location: 'Worship Center',
 					inCharge: ['Andrew Hale'],
 					roles: {
-						'Setup - Before Club': ['Andrew Hale', 'Chelsea Hale'],
+						'Setup - Before Store': ['Andrew Hale', 'Chelsea Hale'],
 						'Cubbies Setup - Before Club': ['David Lugo', 'Naomi Lugo'],
-						Nursery: ['Cheryl Zeigler'],
+						Nursery: ['Johnny Johnson', 'Karen Johnson'],
 					},
 				},
 			],
@@ -28,7 +38,7 @@ const schedule: Schedule = {
 					description: 'Parents check their kids in at a table outside the Worship Center.',
 					inCharge: ['Chelsea Hale'],
 					roles: {
-						'Check-In': ['Chelsea Hale', 'Nikki Criscolo', 'Sarah Fox', 'Heather Fick'],
+						'Check-In (Store Night)': ['Chelsea Hale', 'Nikki Criscolo', 'Sarah Fox'],
 						Director: ['Andrew Hale'],
 					},
 				},
@@ -37,16 +47,15 @@ const schedule: Schedule = {
 					location: 'Worship Center',
 					description:
 						'This is a loosely structured time that allows kids to jump in and participate as they arrive from Check-In or Fast Track. ',
-					inCharge: ['CJ North'],
+					inCharge: ['Evelyn Larson'],
 					roles: {
-						'Music Leader - Sparks + T&T': ['CJ North', 'Evelyn Larson', 'Julia Larson', 'Amelia Munger'],
+						'Music Leader - Sparks + T&T': ['Evelyn Larson', 'Julia Larson', 'Amelia Munger'],
 						AV: ['Josh Larson'],
 						'Music Helper': [
 							'Chris Butler',
 							'Isaiah Parker',
 							'Gavin Sylvia',
 							'Corrine Thomas',
-							'Josh Thomas',
 							'Baxter Williamson',
 							'Jimmy Williamson',
 							'Sonia Williamson',
@@ -59,14 +68,7 @@ const schedule: Schedule = {
 					location: 'Foundations Room',
 					inCharge: ['Keith McClymonds'],
 					roles: {
-						'Fast Track': [
-							'Keith McClymonds',
-							'Niki McClymonds',
-							'Chip Crawford',
-							'Karly Crawford',
-							'Mike Criscolo',
-							'Nick Smith',
-						],
+						'Fast Track': ['Keith McClymonds', 'Niki McClymonds', 'Mike Criscolo', 'Nick Smith', 'Jacob Smith'],
 					},
 				},
 				{
@@ -82,9 +84,9 @@ const schedule: Schedule = {
 				{
 					title: 'Nursery',
 					location: 'Nursery',
-					inCharge: ['Cheryl Zeigler'],
+					inCharge: ['Johnny Johnson'],
 					roles: {
-						Nursery: ['Cheryl Zeigler', 'Lexi Boardman', 'Ella Albert'],
+						Nursery: ['Johnny Johnson', 'Karen Johnson', 'Lexi Boardman', 'Ella Albert'],
 					},
 				},
 			],
@@ -97,18 +99,10 @@ const schedule: Schedule = {
 					location: 'Worship Center',
 					description:
 						'Game time is purposeful. We teach teamwork, sportsmanship, learning and following rules, and healthy competitiveness.',
-					inCharge: ['CJ North'],
+					inCharge: ['Andrew Hale'],
 					roles: {
-						'Game Director': ['CJ North', 'Andrew Hale'],
-						'Team Helper': [
-							'Julia Larson',
-							'Amelia Munger',
-							'Corrine Thomas',
-							'Josh Thomas',
-							'Chip Crawford',
-							'Karly Crawford',
-							'Keith McClymonds',
-						],
+						'Game Director': ['Andrew Hale'],
+						'Team Helper': ['Julia Larson', 'Amelia Munger', 'Corrine Thomas', 'Keith McClymonds', 'Jacob Smith'],
 						'Team Captain': [
 							'Josh Larson',
 							'Chris Butler',
@@ -123,7 +117,7 @@ const schedule: Schedule = {
 				},
 				{
 					title: 'Sparks Activity Setup',
-					location: 'Foundations Room / Hallway',
+					location: "Cheryl's Office / Hallway",
 					inCharge: ['Sonia Williamson'],
 					roles: {
 						'Sparks - Activity Setup': ['Sonia Williamson', 'Lexi Boardman', 'Ella Albert'],
@@ -135,7 +129,7 @@ const schedule: Schedule = {
 					description: 'Track progress for T&T kids who completed sections.',
 					inCharge: ['Chelsea Hale'],
 					roles: {
-						'Progress Tracking': ['Chelsea Hale', 'Nikki Criscolo', 'Sarah Fox', 'Heather Fick'],
+						'Progress Tracking': ['Chelsea Hale', 'Nikki Criscolo', 'Sarah Fox'],
 					},
 				},
 				{
@@ -151,8 +145,8 @@ const schedule: Schedule = {
 				{
 					title: 'Nursery',
 					location: 'Nursery',
-					inCharge: ['Cheryl Zeigler'],
-					roles: { Nursery: ['Cheryl Zeigler'] },
+					inCharge: ['Johnny Johnson'],
+					roles: { Nursery: ['Johnny Johnson', 'Karen Johnson'] },
 				},
 			],
 		},
@@ -160,34 +154,34 @@ const schedule: Schedule = {
 			time: '6:35 pm',
 			events: [
 				{
-					title: 'T&T Lesson',
-					location: "Cheryl's Office",
+					title: 'T&T Store',
+					location: 'Foundations Room',
 
-					inCharge: ['Brad Parker'],
+					inCharge: ['Keith McClymonds'],
 					roles: {
-						Teacher: ['Brad Parker'],
-						'Lesson Helper': [
-							'Keith McClymonds',
-							'Niki McClymonds',
-							'Chip Crawford',
-							'Karly Crawford',
-							'Mike Criscolo',
+						Director: ['Keith McClymonds'],
+						'Store Facilitator': ['Niki McClymonds'],
+						'Store Clerk': ['Evelyn Larson', 'Julia Larson'],
+						'Filler Games Leader': ['Andrew Hale'],
+						'Filler Games Helper': [
+							'Isaiah Parker',
+							'Gavin Sylvia',
+							'Baxter Williamson',
 							'Nick Smith',
-							'CJ North',
+							'Mike Criscolo',
 							'Chris Butler',
-							'Evelyn Larson',
-							'Julia Larson',
+							'Josh Larson',
 						],
 					},
 				},
 				{
 					title: 'Sparks Activity + Fast Track',
-					location: 'Foundations Room',
+					location: "Cheryl's Office",
 					description: 'Large group activity time with one-on-one time for reciting verses.',
 					inCharge: ['Jimmy Williamson', 'Sonia Williamson'],
 					roles: {
 						'Sparks - Activities': ['Sonia Williamson', 'Jimmy Williamson', 'Corrine Thomas'],
-						'Fast Track - Sparks': ['Josh Thomas', 'Amelia Munger', 'Ella Albert', 'Lexi Boardman'],
+						'Fast Track - Sparks': ['Jacob Smith', 'Amelia Munger', 'Ella Albert', 'Lexi Boardman'],
 					},
 				},
 				{
@@ -196,17 +190,7 @@ const schedule: Schedule = {
 					description: 'Track progress for Sparks who completed sections.',
 					inCharge: ['Chelsea Hale'],
 					roles: {
-						'Progress Tracking': ['Chelsea Hale', 'Nikki Criscolo', 'Sarah Fox', 'Heather Fick'],
-						Director: ['Andrew Hale'],
-					},
-				},
-
-				{
-					title: 'Setup - During Club',
-					location: 'Worship Center',
-					inCharge: ['Josh Larson'],
-					roles: {
-						'Setup - During Club': ['Josh Larson', 'Isaiah Parker', 'Gavin Sylvia', 'Baxter Williamson'],
+						'Progress Tracking': ['Chelsea Hale', 'Nikki Criscolo', 'Sarah Fox'],
 					},
 				},
 				{
@@ -222,8 +206,8 @@ const schedule: Schedule = {
 				{
 					title: 'Nursery',
 					location: 'Nursery',
-					inCharge: ['Cheryl Zeigler'],
-					roles: { Nursery: ['Cheryl Zeigler'] },
+					inCharge: ['Johnny Johnson'],
+					roles: { Nursery: ['Johnny Johnson', 'Karen Johnson'] },
 				},
 			],
 		},
@@ -231,40 +215,25 @@ const schedule: Schedule = {
 			time: '7:00 pm',
 			events: [
 				{
-					title: 'Sparks Lesson',
+					title: 'Sparks Store',
+					location: 'Foundations Room',
+					inCharge: ['Keith McClymonds'],
+					roles: {
+						Director: ['Keith McClymonds'],
+						'Store Facilitator': ['Niki McClymonds'],
+						'Store Clerk': ['Evelyn Larson', 'Julia Larson', 'Lexi Boardman', 'Ella Albert'],
+						'Store Helper': ['Amelia Munger', 'Corrine Thomas', 'Jacob Smith', 'Jimmy Williamson', 'Sonia Williamson'],
+						'Filler Games Leader': ['Andrew Hale'],
+						'Filler Games Helper': ['Isaiah Parker', 'Gavin Sylvia', 'Baxter Williamson', 'Josh Larson'],
+					},
+				},
+				{
+					title: 'T&T Lesson',
 					location: "Cheryl's Office",
 					inCharge: ['Brad Parker'],
 					roles: {
 						Teacher: ['Brad Parker'],
-						'Lesson Helper': [
-							'Corrine Thomas',
-							'Lexi Boardman',
-							'Ella Albert',
-							'Josh Thomas',
-							'Amelia Munger',
-							'Sonia Williamson',
-							'Jimmy Williamson',
-						],
-					},
-				},
-				{
-					title: 'T&T Small Groups',
-					location: 'Worship Center + Foundations Room',
-					inCharge: ['Keith McClymonds', 'Niki McClymonds'],
-					smallGroupQuestions: [],
-					roles: {
-						'Small Group Leader': [
-							'Chris Butler',
-							'Chip Crawford',
-							'Karly Crawford',
-							'Mike Criscolo',
-							'Evelyn Larson',
-							'Julia Larson',
-							'Niki McClymonds',
-							'Keith McClymonds',
-							'CJ North',
-							'Nick Smith',
-						],
+						'Lesson Helper': ['Chris Butler', 'Mike Criscolo', 'Nick Smith'],
 					},
 				},
 				{
@@ -273,7 +242,6 @@ const schedule: Schedule = {
 					inCharge: ['Chelsea Hale'],
 					roles: {
 						'Progress Tracking': ['Chelsea Hale', 'Sarah Fox'],
-						Director: ['Andrew Hale'],
 					},
 				},
 				{
@@ -285,19 +253,12 @@ const schedule: Schedule = {
 						'Cubbies Snack and Craft Helper': ['Allie Fullerton', 'Jared Fullerton', 'Kenzie McClymonds', 'Naomi Lugo'],
 					},
 				},
-				{
-					title: 'Setup - During Club',
-					location: 'Worship Center',
-					inCharge: ['Josh Larson'],
-					roles: {
-						'Setup - During Club': ['Josh Larson', 'Isaiah Parker', 'Gavin Sylvia', 'Baxter Williamson'],
-					},
-				},
+
 				{
 					title: 'Nursery',
 					location: 'Nursery',
-					inCharge: ['Cheryl Zeigler'],
-					roles: { Nursery: ['Cheryl Zeigler'] },
+					inCharge: ['Johnny Johnson'],
+					roles: { Nursery: ['Johnny Johnson', 'Karen Johnson'] },
 				},
 			],
 		},
@@ -313,17 +274,14 @@ const schedule: Schedule = {
 						Director: ['Andrew Hale'],
 						'Leader - Closing Assembly': [
 							'Chris Butler',
-							'Chip Crawford',
-							'Karly Crawford',
 							'Mike Criscolo',
 							'Evelyn Larson',
 							'Julia Larson',
 							'Niki McClymonds',
 							'Keith McClymonds',
-							'CJ North',
-							'Nick Smith',
+
 							'Corrine Thomas',
-							'Josh Thomas',
+							'Jacob Smith',
 							'Amelia Munger',
 							'Sonia Williamson',
 							'Jimmy Williamson',
@@ -331,11 +289,19 @@ const schedule: Schedule = {
 					},
 				},
 				{
-					title: 'Setup - After Club',
+					title: 'Setup - During Club',
 					location: 'Worship Center',
 					inCharge: ['Josh Larson'],
 					roles: {
-						'Setup - After Club': ['Josh Larson', 'Isaiah Parker', 'Gavin Sylvia', 'Baxter Williamson'],
+						'Setup - During Club': ['Josh Larson', 'Isaiah Parker', 'Gavin Sylvia'],
+					},
+				},
+				{
+					title: 'Setup - After Club',
+					location: 'Worship Center',
+					inCharge: ['Nick Smith'],
+					roles: {
+						'Setup - After Club': ['Nick Smith', 'Baxter Williamson'],
 					},
 				},
 				{
@@ -355,8 +321,8 @@ const schedule: Schedule = {
 				{
 					title: 'Nursery',
 					location: 'Nursery',
-					inCharge: ['Cheryl Zeigler'],
-					roles: { Nursery: ['Cheryl Zeigler', 'Ella Albert', 'Lexi Boardman'] },
+					inCharge: ['Johnny Johnson'],
+					roles: { Nursery: ['Johnny Johnson', 'Karen Johnson', 'Ella Albert', 'Lexi Boardman'] },
 				},
 			],
 		},
