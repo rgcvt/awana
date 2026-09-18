@@ -254,7 +254,12 @@ const schedule: Schedule = {
 					title: 'T&T Small Groups',
 					location: 'Worship Center + Foundations Room',
 					inCharge: ['Keith McClymonds', 'Niki McClymonds'],
-					smallGroupQuestions: [],
+					smallGroupQuestions: [
+						"If you were one of Jesus' disciples, what might you have been thinking and feeling as you watched him be lifted up to heaven?",
+						'Before he left, Jesus said that they will be his witnesses.  What is a witness?',
+						'Do you think that Jesus meant for this work of witnessing to stop once those first disciples had all died?  Or did he mean for it to keep going on?',
+						'Read Hebrews 4:14, 7:25-27, 8:1, 9:11-12. What is Jesus "job" now that he has ascended to heaven?  Why is it important for you that that is his job?',
+					],
 					roles: {
 						'Small Group Leader': [
 							'Chris Butler',
