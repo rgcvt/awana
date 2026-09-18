@@ -2,7 +2,7 @@ import type { Schedule } from '@/@types/global';
 
 const schedule: Schedule = {
 	date: '2026-09-18',
-	out: ['Julia Larson', 'Karen Johnson', 'Heather Fick', 'Amelia Munger', 'CJ North', 'Cheryl Zeigler', 'Caleb Munger'],
+	out: ['Julia Larson', 'Karen Johnson', 'Heather Fick', 'CJ North', 'Cheryl Zeigler', 'Caleb Munger'],
 	schedule: [
 		{
 			time: '5:35 pm',
@@ -85,9 +85,9 @@ const schedule: Schedule = {
 				{
 					title: 'Nursery',
 					location: 'Nursery',
-					inCharge: ['Gabrielle Stoughton'],
+					inCharge: ['Amelia Munger'],
 					roles: {
-						Nursery: ['Gabrielle Stoughton'],
+						Nursery: ['Amelia Munger'],
 					},
 				},
 			],
@@ -150,8 +150,8 @@ const schedule: Schedule = {
 				{
 					title: 'Nursery',
 					location: 'Nursery',
-					inCharge: ['Gabrielle Stoughton'],
-					roles: { Nursery: ['Gabrielle Stoughton', 'Lexi Boardman'] },
+					inCharge: ['Amelia Munger'],
+					roles: { Nursery: ['Amelia Munger', 'Lexi Boardman'] },
 				},
 			],
 		},
@@ -225,8 +225,8 @@ const schedule: Schedule = {
 				{
 					title: 'Nursery',
 					location: 'Nursery',
-					inCharge: ['Gabrielle Stoughton'],
-					roles: { Nursery: ['Gabrielle Stoughton', 'Lexi Boardman'] },
+					inCharge: ['Amelia Munger'],
+					roles: { Nursery: ['Amelia Munger', 'Lexi Boardman'] },
 				},
 			],
 		},
@@ -303,8 +303,8 @@ const schedule: Schedule = {
 				{
 					title: 'Nursery',
 					location: 'Nursery',
-					inCharge: ['Gabrielle Stoughton'],
-					roles: { Nursery: ['Gabrielle Stoughton', 'Lexi Boardman'] },
+					inCharge: ['Amelia Munger'],
+					roles: { Nursery: ['Amelia Munger', 'Lexi Boardman'] },
 				},
 			],
 		},
@@ -364,8 +364,8 @@ const schedule: Schedule = {
 				{
 					title: 'Nursery',
 					location: 'Nursery',
-					inCharge: ['Gabrielle Stoughton'],
-					roles: { Nursery: ['Gabrielle Stoughton', 'Lexi Boardman'] },
+					inCharge: ['Amelia Munger'],
+					roles: { Nursery: ['Amelia Munger', 'Lexi Boardman'] },
 				},
 			],
 		},
