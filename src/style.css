@@ -3,3 +3,8 @@
 	padding: 1rem;
 	margin: 0 auto;
 }
+@media print {
+	:root {
+		font-size: 10px;
+	}
+}
