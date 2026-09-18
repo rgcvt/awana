@@ -40,9 +40,7 @@
 				</div>
 				<div class="unassigned">
 					<h4>Unassigned:</h4>
-					<div v-for="person in unassigned(time)">
-						{{ person }}
-					</div>
+					<div v-for="person in unassigned(time)">'{{ person }}',</div>
 				</div>
 			</div>
 		</section>

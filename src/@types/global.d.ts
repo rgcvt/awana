@@ -1,6 +1,7 @@
 import type { people } from '@/data/people';
 
 type RoleTitle =
+	| 'Bouncer'
 	| 'Setup - Before Club'
 	| 'Setup - Before Store'
 	| 'Setup - During Club'

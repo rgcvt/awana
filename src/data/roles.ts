@@ -6,6 +6,13 @@ export const roleByTitle = (title: RoleTitle): Role | undefined => {
 
 export const roles: Role[] = [
 	{
+		title: 'Bouncer',
+		responsibilities: [
+			'Intercept people as they enter the front doors.',
+			'Ensure they have registered and filled out the release form before they go to the check-in table.',
+		],
+	},
+	{
 		title: 'Setup - Before Club',
 		responsibilities: [
 			'Worship Center - Stack Chairs: Stack all the chairs in the Worship Center. Leave the last 2 chairs on the outside of each row in place and stack the rest of the chairs from each row on top of these.',
