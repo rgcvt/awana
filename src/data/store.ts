@@ -2,7 +2,7 @@ import type { Schedule } from '@/@types/global';
 
 const schedule: Schedule = {
 	date: '2025-01-01',
-	out: ['Jacob Smith', 'Ethan Walters', 'Holly Raiche', 'Levi Walters'],
+	out: ['Ethan Walters'],
 	schedule: [
 		{
 			time: '5:35 pm',
@@ -13,7 +13,7 @@ const schedule: Schedule = {
 					inCharge: ['Andrew Hale'],
 					roles: {
 						'Setup - Before Store': ['Andrew Hale', 'Chelsea Hale'],
-						'Cubbies Setup - Before Club': ['David Lugo', 'Naomi Lugo'],
+						'Cubbies Setup - Before Club': ['David Lugo'],
 						Nursery: ['Cheryl Zeigler'],
 					},
 				},
@@ -28,7 +28,7 @@ const schedule: Schedule = {
 					description: 'Parents check their kids in at a table outside the Worship Center.',
 					inCharge: ['Chelsea Hale'],
 					roles: {
-						'Check-In (Store Night)': ['Chelsea Hale', 'Nikki Criscolo', 'Sarah Fox', 'Heather Fick'],
+						'Check-In (Store Night)': ['Chelsea Hale', 'Sara Fox', 'Heather Fick'],
 						Director: ['Andrew Hale'],
 						'Store Facilitator': ['Niki McClymonds'],
 					},
@@ -40,14 +40,11 @@ const schedule: Schedule = {
 						'This is a loosely structured time that allows kids to jump in and participate as they arrive from Check-In or Fast Track. ',
 					inCharge: ['CJ North'],
 					roles: {
-						'Music Leader - Sparks + T&T': ['CJ North', 'Evelyn Larson', 'Julia Larson', 'Amelia Munger'],
+						'Music Leader - Sparks + T&T': ['CJ North', 'Julia Larson', 'Amelia Munger'],
 						AV: ['Josh Larson'],
 						'Music Helper': [
 							'Chris Butler',
 							'Isaiah Parker',
-							'Gavin Sylvia',
-							'Corrine Thomas',
-							'Josh Thomas',
 							'Baxter Williamson',
 							'Jimmy Williamson',
 							'Sonia Williamson',
@@ -60,17 +57,17 @@ const schedule: Schedule = {
 					location: 'Foundations Room',
 					inCharge: ['Keith McClymonds'],
 					roles: {
-						'Fast Track': ['Keith McClymonds', 'Chip Crawford', 'Karly Crawford', 'Mike Criscolo', 'Nick Smith'],
+						'Fast Track': ['Keith McClymonds', 'Chip Crawford', 'Karly Crawford', 'Nick Smith'],
 					},
 				},
 				{
 					title: 'Cubbies - Check-In',
 					location: "Children's Sunday School Rooms",
-					inCharge: ['David Lugo', 'Naomi Lugo'],
+					inCharge: ['David Lugo'],
 					roles: {
 						'Cubbies Game Leader': ['David Lugo'],
-						'Cubbies Check-in': ['Naomi Lugo'],
-						'Cubbies Helper': ['Jared Fullerton', 'Allie Fullerton', 'Kenzie McClymonds'],
+						'Cubbies Check-in': [],
+						'Cubbies Helper': ['Jared Fullerton', 'Kenzie McClymonds'],
 					},
 				},
 				{
@@ -78,7 +75,7 @@ const schedule: Schedule = {
 					location: 'Nursery',
 					inCharge: ['Cheryl Zeigler'],
 					roles: {
-						Nursery: ['Cheryl Zeigler', 'Lexi Boardman', 'Ella Albert'],
+						Nursery: ['Cheryl Zeigler', 'Lexi Boardman'],
 					},
 				},
 			],
@@ -97,8 +94,6 @@ const schedule: Schedule = {
 						'Team Helper': [
 							'Julia Larson',
 							'Amelia Munger',
-							'Corrine Thomas',
-							'Josh Thomas',
 							'Chip Crawford',
 							'Karly Crawford',
 							'Keith McClymonds',
@@ -109,10 +104,9 @@ const schedule: Schedule = {
 							'Nick Smith',
 							'Jimmy Williamson',
 							'Niki McClymonds',
-							'Mike Criscolo',
-						],
+							],
 						'Game Helper': ['Isaiah Parker'],
-						'Score Keeper': ['Gavin Sylvia', 'Baxter Williamson'],
+						'Score Keeper': ['Baxter Williamson'],
 					},
 				},
 				{
@@ -120,7 +114,7 @@ const schedule: Schedule = {
 					location: "Cheryl's Office / Hallway",
 					inCharge: ['Sonia Williamson'],
 					roles: {
-						'Sparks - Activity Setup': ['Sonia Williamson', 'Lexi Boardman', 'Ella Albert'],
+						'Sparks - Activity Setup': ['Sonia Williamson', 'Lexi Boardman'],
 					},
 				},
 				{
@@ -129,17 +123,17 @@ const schedule: Schedule = {
 					description: 'Track progress for T&T kids who completed sections.',
 					inCharge: ['Chelsea Hale'],
 					roles: {
-						'Progress Tracking': ['Chelsea Hale', 'Nikki Criscolo', 'Sarah Fox', 'Heather Fick'],
+						'Progress Tracking': ['Chelsea Hale', 'Sara Fox', 'Heather Fick'],
 					},
 				},
 				{
 					title: 'Cubbies - Music',
 					location: "Children's Sunday School Rooms",
-					inCharge: ['David Lugo', 'Naomi Lugo'],
+					inCharge: ['David Lugo'],
 					roles: {
-						'Music Leader - Cubbies': ['Evelyn Larson'],
+						'Music Leader - Cubbies': [],
 						'Cubbies Director': ['David Lugo'],
-						'Cubbies Music Helper': ['Allie Fullerton', 'Jared Fullerton', 'Kenzie McClymonds', 'Naomi Lugo'],
+						'Cubbies Music Helper': ['Jared Fullerton', 'Kenzie McClymonds'],
 					},
 				},
 				{
@@ -161,14 +155,12 @@ const schedule: Schedule = {
 					roles: {
 						Director: ['Keith McClymonds'],
 						'Store Facilitator': ['Niki McClymonds'],
-						'Store Clerk': ['Evelyn Larson', 'Julia Larson', 'Karly Crawford', 'Chip Crawford'],
+						'Store Clerk': ['Julia Larson', 'Karly Crawford', 'Chip Crawford'],
 						'Filler Games Leader': ['Andrew Hale'],
 						'Filler Games Helper': [
 							'Isaiah Parker',
-							'Gavin Sylvia',
 							'Baxter Williamson',
 							'Nick Smith',
-							'Mike Criscolo',
 							'Chris Butler',
 							'Josh Larson',
 							'CJ North',
@@ -181,8 +173,8 @@ const schedule: Schedule = {
 					description: 'Large group activity time with one-on-one time for reciting verses.',
 					inCharge: ['Jimmy Williamson', 'Sonia Williamson'],
 					roles: {
-						'Sparks - Activities': ['Sonia Williamson', 'Jimmy Williamson', 'Corrine Thomas'],
-						'Fast Track - Sparks': ['Josh Thomas', 'Amelia Munger', 'Ella Albert', 'Lexi Boardman'],
+						'Sparks - Activities': ['Sonia Williamson', 'Jimmy Williamson'],
+						'Fast Track - Sparks': ['Amelia Munger', 'Lexi Boardman'],
 					},
 				},
 				{
@@ -191,17 +183,17 @@ const schedule: Schedule = {
 					description: 'Track progress for Sparks who completed sections.',
 					inCharge: ['Chelsea Hale'],
 					roles: {
-						'Progress Tracking': ['Chelsea Hale', 'Nikki Criscolo', 'Sarah Fox', 'Heather Fick'],
+						'Progress Tracking': ['Chelsea Hale', 'Sara Fox', 'Heather Fick'],
 					},
 				},
 				{
 					title: 'Cubbies - Lesson',
 					location: "Children's Sunday School Rooms",
-					inCharge: ['David Lugo', 'Naomi Lugo'],
+					inCharge: ['David Lugo'],
 					roles: {
 						'Cubbies Teacher': ['David Lugo'],
-						'Cubbies Puppeteer': ['Naomi Lugo'],
-						'Cubbies Lesson Helper': ['Allie Fullerton', 'Jared Fullerton', 'Kenzie McClymonds'],
+						'Cubbies Puppeteer': [],
+						'Cubbies Lesson Helper': ['Jared Fullerton', 'Kenzie McClymonds'],
 					},
 				},
 				{
@@ -222,10 +214,10 @@ const schedule: Schedule = {
 					roles: {
 						Director: ['Keith McClymonds'],
 						'Store Facilitator': ['Niki McClymonds'],
-						'Store Clerk': ['Evelyn Larson', 'Julia Larson', 'Lexi Boardman', 'Ella Albert'],
-						'Store Helper': ['Amelia Munger', 'Corrine Thomas', 'Josh Thomas', 'Jimmy Williamson', 'Sonia Williamson'],
+						'Store Clerk': ['Julia Larson', 'Lexi Boardman'],
+						'Store Helper': ['Amelia Munger', 'Jimmy Williamson', 'Sonia Williamson'],
 						'Filler Games Leader': ['Andrew Hale'],
-						'Filler Games Helper': ['Isaiah Parker', 'Gavin Sylvia', 'Baxter Williamson', 'Nick Smith', 'Josh Larson'],
+						'Filler Games Helper': ['Isaiah Parker', 'Baxter Williamson', 'Nick Smith', 'Josh Larson'],
 					},
 				},
 				{
@@ -234,7 +226,7 @@ const schedule: Schedule = {
 					inCharge: ['Brad Parker'],
 					roles: {
 						Teacher: ['Brad Parker'],
-						'Lesson Helper': ['CJ North', 'Chris Butler', 'Mike Criscolo', 'Chip Crawford', 'Karly Crawford'],
+						'Lesson Helper': ['CJ North', 'Chris Butler', 'Chip Crawford', 'Karly Crawford'],
 					},
 				},
 				{
@@ -242,16 +234,16 @@ const schedule: Schedule = {
 					location: 'Foyer',
 					inCharge: ['Chelsea Hale'],
 					roles: {
-						'Progress Tracking': ['Chelsea Hale', 'Sarah Fox'],
+						'Progress Tracking': ['Chelsea Hale', 'Sara Fox'],
 					},
 				},
 				{
 					title: 'Cubbies - Craft and Snack',
 					location: "Children's Sunday School Rooms",
-					inCharge: ['David Lugo', 'Naomi Lugo'],
+					inCharge: ['David Lugo'],
 					roles: {
 						'Cubbies Director': ['David Lugo'],
-						'Cubbies Snack and Craft Helper': ['Allie Fullerton', 'Jared Fullerton', 'Kenzie McClymonds', 'Naomi Lugo'],
+						'Cubbies Snack and Craft Helper': ['Jared Fullerton', 'Kenzie McClymonds'],
 					},
 				},
 
@@ -271,20 +263,16 @@ const schedule: Schedule = {
 					location: 'Worship Center',
 					inCharge: ['Andrew Hale'],
 					roles: {
-						'Check-Out': ['Chelsea Hale', 'Sarah Fox'],
+						'Check-Out': ['Chelsea Hale', 'Sara Fox'],
 						Director: ['Andrew Hale'],
 						'Leader - Closing Assembly': [
 							'Chris Butler',
 							'Chip Crawford',
 							'Karly Crawford',
-							'Mike Criscolo',
-							'Evelyn Larson',
 							'Julia Larson',
 							'Niki McClymonds',
 							'Keith McClymonds',
 							'CJ North',
-							'Corrine Thomas',
-							'Josh Thomas',
 							'Amelia Munger',
 							'Sonia Williamson',
 							'Jimmy Williamson',
@@ -296,7 +284,7 @@ const schedule: Schedule = {
 					location: 'Worship Center',
 					inCharge: ['Josh Larson'],
 					roles: {
-						'Setup - During Club': ['Josh Larson', 'Isaiah Parker', 'Gavin Sylvia'],
+						'Setup - During Club': ['Josh Larson', 'Isaiah Parker'],
 					},
 				},
 				{
@@ -310,22 +298,20 @@ const schedule: Schedule = {
 				{
 					title: 'Cubbies - Clean Up',
 					location: "Children's Sunday School Rooms",
-					inCharge: ['David Lugo', 'Naomi Lugo'],
+					inCharge: ['David Lugo'],
 					roles: {
 						'Cubbies Setup - After Club': [
 							'David Lugo',
-							'Naomi Lugo',
 							'Kenzie McClymonds',
 							'Jared Fullerton',
-							'Allie Fullerton',
-						],
+							],
 					},
 				},
 				{
 					title: 'Nursery',
 					location: 'Nursery',
 					inCharge: ['Cheryl Zeigler'],
-					roles: { Nursery: ['Cheryl Zeigler', 'Ella Albert', 'Lexi Boardman'] },
+					roles: { Nursery: ['Cheryl Zeigler', 'Lexi Boardman'] },
 				},
 			],
 		},

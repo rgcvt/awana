@@ -18,7 +18,7 @@
 		"@vitejs/plugin-vue": "latest",
 		"@vue/tsconfig": "latest",
 		"sass": "latest",
-		"typescript": "latest",
+		"typescript": "~5.9.3",
 		"vite": "latest",
 		"vue-tsc": "latest"
 	}
