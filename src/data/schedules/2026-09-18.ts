@@ -14,7 +14,6 @@ const schedule: Schedule = {
 					roles: {
 						'Setup - Before Club': ['Andrew Hale', 'Chelsea Hale'],
 						'Cubbies Setup - Before Club': ['Ethan Walters', 'Emma Walters'],
-						Nursery: ['Gabrielle Stoughton'],
 					},
 				},
 			],
