@@ -1,7 +1,7 @@
 import type { Schedule } from '@/@types/global';
 
 const schedule: Schedule = {
-	date: '2026-09-18',
+	date: '2026-10-16',
 	out: [
 		'Julia Larson',
 		'Cheryl Zeigler',
