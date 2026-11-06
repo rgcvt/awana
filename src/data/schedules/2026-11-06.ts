@@ -2,7 +2,7 @@ import type { Schedule } from '@/@types/global';
 
 const schedule: Schedule = {
 	date: '2026-11-06',
-	out: ['Julia Larson', 'Gabrielle Stoughton', 'Karen Johnson', 'Karly Crawford', 'Amelia Munger', 'Caleb Munger', 'Sara Fox', 'Chip Crawford'],
+	out: ['Julia Larson', 'Gabrielle Stoughton', 'Karen Johnson', 'Karly Crawford', 'Amelia Munger', 'Caleb Munger', 'Sara Fox', 'Chip Crawford', 'Brad Parker'],
 	schedule: [
 		{
 			time: '5:35 pm',
@@ -64,7 +64,6 @@ const schedule: Schedule = {
 					inCharge: ['Keith McClymonds'],
 					roles: {
 						'Fast Track': [
-							'Brad Parker',
 							'Keith McClymonds',
 							'Niki McClymonds',
 							'Tyler Quinn',
@@ -114,7 +113,6 @@ const schedule: Schedule = {
 							'David Lugo',
 							'Andrew Hale',
 							'Josh Larson',
-							'Brad Parker',
 							'Ethan Stoughton',
 						],
 						'Team Captain': ['Jimmy Williamson', 'Josh Porter', 'Levi Weatherald', 'Chris Butler', 'Hayden Stanislas'],
@@ -163,10 +161,9 @@ const schedule: Schedule = {
 				{
 					title: 'T&T Lesson',
 					location: "Cheryl's Office",
-
-					inCharge: ['Brad Parker'],
+					inCharge: ['CJ North'],
 					roles: {
-						Teacher: ['Brad Parker'],
+						Teacher: ['CJ North'],
 						'Lesson Helper': [
 							'Keith McClymonds',
 							'Niki McClymonds',
@@ -176,8 +173,6 @@ const schedule: Schedule = {
 							'Nick Smith',
 							'Hayden Stanislas',
 							'David Lugo',
-
-							'CJ North',
 						],
 					},
 				},
@@ -240,9 +235,9 @@ const schedule: Schedule = {
 				{
 					title: 'Sparks Lesson',
 					location: "Cheryl's Office",
-					inCharge: ['Brad Parker'],
+					inCharge: ['CJ North'],
 					roles: {
-						Teacher: ['Brad Parker'],
+						Teacher: ['CJ North'],
 						'Lesson Helper': [
 							'Sonia Williamson',
 							'Jimmy Williamson',
@@ -269,7 +264,6 @@ const schedule: Schedule = {
 							'Nick Smith',
 							'Hayden Stanislas',
 							'David Lugo',
-							'CJ North',
 						],
 					},
 				},
@@ -339,7 +333,6 @@ const schedule: Schedule = {
 							'Hayden Stanislas',
 							'David Lugo',
 							'Ethan Stoughton',
-							'Brad Parker',
 							'CJ North',
 						],
 					},
