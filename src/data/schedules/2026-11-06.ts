@@ -2,7 +2,17 @@ import type { Schedule } from '@/@types/global';
 
 const schedule: Schedule = {
 	date: '2026-11-06',
-	out: ['Julia Larson', 'Gabrielle Stoughton', 'Karen Johnson', 'Karly Crawford', 'Amelia Munger', 'Caleb Munger', 'Sara Fox', 'Chip Crawford', 'Brad Parker'],
+	out: [
+		'Julia Larson',
+		'Gabrielle Stoughton',
+		'Karen Johnson',
+		'Karly Crawford',
+		'Amelia Munger',
+		'Caleb Munger',
+		'Sara Fox',
+		'Chip Crawford',
+		'Brad Parker',
+	],
 	schedule: [
 		{
 			time: '5:35 pm',
@@ -44,7 +54,7 @@ const schedule: Schedule = {
 						'Music Helper': [
 							'Chris Butler',
 							'Simon Parker',
-							'Levi Weatherald',
+							'Levi Wetherald',
 							'Jimmy Williamson',
 							'Rocco Williamson',
 							'Sonia Williamson',
@@ -63,13 +73,7 @@ const schedule: Schedule = {
 					location: 'Foundations Room',
 					inCharge: ['Keith McClymonds'],
 					roles: {
-						'Fast Track': [
-							'Keith McClymonds',
-							'Niki McClymonds',
-							'Tyler Quinn',
-							'David Lugo',
-							'Nick Smith',
-						],
+						'Fast Track': ['Keith McClymonds', 'Niki McClymonds', 'Tyler Quinn', 'David Lugo', 'Nick Smith'],
 					},
 				},
 				{
@@ -115,7 +119,7 @@ const schedule: Schedule = {
 							'Josh Larson',
 							'Ethan Stoughton',
 						],
-						'Team Captain': ['Jimmy Williamson', 'Josh Porter', 'Levi Weatherald', 'Chris Butler', 'Hayden Stanislas'],
+						'Team Captain': ['Jimmy Williamson', 'Josh Porter', 'Levi Wetherald', 'Chris Butler', 'Hayden Stanislas'],
 						'Game Helper': ['Grace Boardman', 'Rocco Williamson'],
 						'Score Keeper': ['Baxter Williamson'],
 					},
@@ -185,7 +189,7 @@ const schedule: Schedule = {
 						'Sparks - Activities': ['Sonia Williamson', 'Jimmy Williamson'],
 						'Fast Track - Sparks': [
 							'Simon Parker',
-							'Levi Weatherald',
+							'Levi Wetherald',
 							'Rocco Williamson',
 							'Grace Boardman',
 							'Ethan Stoughton',
@@ -242,7 +246,7 @@ const schedule: Schedule = {
 							'Sonia Williamson',
 							'Jimmy Williamson',
 							'Simon Parker',
-							'Levi Weatherald',
+							'Levi Wetherald',
 							'Rocco Williamson',
 							'Grace Boardman',
 							'Ethan Stoughton',
@@ -320,7 +324,7 @@ const schedule: Schedule = {
 						'Leader - Closing Assembly': [
 							'Chris Butler',
 							'Simon Parker',
-							'Levi Weatherald',
+							'Levi Wetherald',
 							'Jimmy Williamson',
 							'Rocco Williamson',
 							'Sonia Williamson',

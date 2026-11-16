@@ -7,7 +7,7 @@ export const people = [
 	'Emma Walters',
 	'Ethan Walters',
 	'Simon Parker',
-	'Levi Weatherald',
+	'Levi Wetherald',
 	'Jimmy Williamson',
 	'Rocco Williamson',
 	'Sonia Williamson',

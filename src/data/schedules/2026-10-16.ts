@@ -52,7 +52,7 @@ const schedule: Schedule = {
 						'Music Helper': [
 							'Chris Butler',
 							'Simon Parker',
-							'Levi Weatherald',
+							'Levi Wetherald',
 							'Jimmy Williamson',
 							'Rocco Williamson',
 							'Sonia Williamson',
@@ -127,7 +127,7 @@ const schedule: Schedule = {
 							'Josh Larson',
 							'Brad Parker',
 						],
-						'Team Captain': ['Jimmy Williamson', 'Josh Porter', 'Levi Weatherald', 'Chris Butler', 'Hayden Stanislas'],
+						'Team Captain': ['Jimmy Williamson', 'Josh Porter', 'Levi Wetherald', 'Chris Butler', 'Hayden Stanislas'],
 						'Game Helper': ['Grace Boardman', 'Rocco Williamson'],
 						'Score Keeper': ['Baxter Williamson'],
 					},
@@ -198,7 +198,7 @@ const schedule: Schedule = {
 					inCharge: ['Jimmy Williamson', 'Sonia Williamson'],
 					roles: {
 						'Sparks - Activities': ['Sonia Williamson', 'Jimmy Williamson'],
-						'Fast Track - Sparks': ['Simon Parker', 'Levi Weatherald', 'Rocco Williamson', 'Grace Boardman'],
+						'Fast Track - Sparks': ['Simon Parker', 'Levi Wetherald', 'Rocco Williamson', 'Grace Boardman'],
 					},
 				},
 				{
@@ -251,7 +251,7 @@ const schedule: Schedule = {
 							'Sonia Williamson',
 							'Jimmy Williamson',
 							'Simon Parker',
-							'Levi Weatherald',
+							'Levi Wetherald',
 							'Rocco Williamson',
 							'Grace Boardman',
 						],
@@ -330,7 +330,7 @@ const schedule: Schedule = {
 						'Leader - Closing Assembly': [
 							'Chris Butler',
 							'Simon Parker',
-							'Levi Weatherald',
+							'Levi Wetherald',
 							'Jimmy Williamson',
 							'Rocco Williamson',
 							'Sonia Williamson',

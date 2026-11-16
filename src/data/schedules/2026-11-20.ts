@@ -10,6 +10,7 @@ const schedule: Schedule = {
 		'Caleb Munger',
 		'Chelsea Hale',
 		'Andrew Hale',
+		'Nick Smith',
 	],
 	schedule: [
 		{
@@ -18,9 +19,9 @@ const schedule: Schedule = {
 				{
 					title: 'Setup',
 					location: 'Worship Center',
-					inCharge: ['Nick Smith'],
+					inCharge: ['Josh Porter'],
 					roles: {
-						'Setup - Before Club': ['Nick Smith'],
+						'Setup - Before Club': ['Josh Porter', 'Levi Wetherald'],
 						'Cubbies Setup - Before Club': ['Ethan Walters', 'Emma Walters'],
 						Nursery: ['Cheryl Zeigler'],
 					},
@@ -52,11 +53,9 @@ const schedule: Schedule = {
 						'Music Helper': [
 							'Chris Butler',
 							'Simon Parker',
-							'Levi Weatherald',
 							'Jimmy Williamson',
 							'Rocco Williamson',
 							'Sonia Williamson',
-							'Josh Porter',
 							'Hayden Stanislas',
 							'CJ North',
 							'Ethan Stoughton',
@@ -71,7 +70,14 @@ const schedule: Schedule = {
 					location: 'Foundations Room',
 					inCharge: ['Niki McClymonds'],
 					roles: {
-						'Fast Track': ['Niki McClymonds', 'Chip Crawford', 'Tyler Quinn', 'David Lugo', 'Nick Smith'],
+						'Fast Track': [
+							'Niki McClymonds',
+							'Chip Crawford',
+							'Tyler Quinn',
+							'David Lugo',
+							'Levi Wetherald',
+							'Josh Porter',
+						],
 					},
 				},
 				{
@@ -111,13 +117,12 @@ const schedule: Schedule = {
 							'Chip Crawford',
 							'Niki McClymonds',
 							'Tyler Quinn',
-							'Nick Smith',
 							'David Lugo',
 							'Josh Larson',
 							'Brad Parker',
 							'Ethan Stoughton',
 						],
-						'Team Captain': ['Jimmy Williamson', 'Josh Porter', 'Levi Weatherald', 'Chris Butler', 'Hayden Stanislas'],
+						'Team Captain': ['Jimmy Williamson', 'Josh Porter', 'Levi Wetherald', 'Chris Butler', 'Hayden Stanislas'],
 						'Game Helper': ['Grace Boardman', 'Rocco Williamson'],
 						'Score Keeper': ['Baxter Williamson'],
 					},
@@ -173,7 +178,6 @@ const schedule: Schedule = {
 							'Chip Crawford',
 							'Josh Porter',
 							'Tyler Quinn',
-							'Nick Smith',
 							'Hayden Stanislas',
 							'David Lugo',
 
@@ -190,7 +194,7 @@ const schedule: Schedule = {
 						'Sparks - Activities': ['Sonia Williamson', 'Jimmy Williamson'],
 						'Fast Track - Sparks': [
 							'Simon Parker',
-							'Levi Weatherald',
+							'Levi Wetherald',
 							'Rocco Williamson',
 							'Grace Boardman',
 							'Ethan Stoughton',
@@ -247,7 +251,7 @@ const schedule: Schedule = {
 							'Sonia Williamson',
 							'Jimmy Williamson',
 							'Simon Parker',
-							'Levi Weatherald',
+							'Levi Wetherald',
 							'Rocco Williamson',
 							'Grace Boardman',
 							'Ethan Stoughton',
@@ -266,7 +270,6 @@ const schedule: Schedule = {
 							'Niki McClymonds',
 							'Josh Porter',
 							'Tyler Quinn',
-							'Nick Smith',
 							'Hayden Stanislas',
 							'David Lugo',
 							'Josh Larson',
@@ -326,7 +329,7 @@ const schedule: Schedule = {
 						'Leader - Closing Assembly': [
 							'Chris Butler',
 							'Simon Parker',
-							'Levi Weatherald',
+							'Levi Wetherald',
 							'Jimmy Williamson',
 							'Rocco Williamson',
 							'Sonia Williamson',
@@ -335,7 +338,6 @@ const schedule: Schedule = {
 							'Niki McClymonds',
 							'Josh Porter',
 							'Tyler Quinn',
-							'Nick Smith',
 							'Hayden Stanislas',
 							'David Lugo',
 							'Ethan Stoughton',
